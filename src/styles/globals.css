@@ -24,6 +24,94 @@
 
 html, body { background: #000; }
 
+/* ─── Outer shell & iOS frame ─────────────────────────────────── */
+.goal-outer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  padding: 20px;
+}
+
+.goal-ios-frame {
+  width: 402px;
+  height: 874px;
+  border-radius: 48px;
+  overflow: hidden;
+  position: relative;
+  background: #F2F2F7;
+  box-shadow: 0 40px 80px rgba(0,0,0,0.18), 0 0 0 1px rgba(0,0,0,0.12);
+  font-family: -apple-system, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.goal-ios-frame-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.goal-ios-home-indicator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 60;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 8px;
+  pointer-events: none;
+}
+
+.goal-ios-home-pill {
+  width: 139px;
+  height: 5px;
+  border-radius: 100px;
+  background: rgba(0,0,0,0.25);
+}
+
+/* ─── Mobile: strip the fake frame, go full-screen ────────────── */
+@media (max-width: 430px) {
+  .goal-outer {
+    min-height: 100svh;
+    padding: 0;
+    align-items: stretch;
+  }
+
+  .goal-ios-frame {
+    width: 100%;
+    height: 100svh;
+    border-radius: 0;
+    box-shadow: none;
+    background: var(--bg);
+  }
+
+  .goal-ios-home-indicator {
+    display: none;
+  }
+
+  .goal-app {
+    padding-top: max(20px, env(safe-area-inset-top));
+    padding-bottom: 0;
+  }
+
+  .goal-scroll {
+    padding-bottom: calc(60px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .goal-bottomnav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    padding-bottom: calc(8px + env(safe-area-inset-bottom, 0px));
+  }
+}
+
 .goal-app {
   width: 100%;
   height: 100%;
