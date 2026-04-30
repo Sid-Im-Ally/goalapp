@@ -94,7 +94,7 @@ html, body { background: #000; }
   }
 
   .goal-app {
-    padding-top: max(20px, env(safe-area-inset-top));
+    padding-top: env(safe-area-inset-top, 0px);
     padding-bottom: 0;
   }
 
