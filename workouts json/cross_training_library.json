@@ -1,0 +1,1566 @@
+{
+  "library": {
+    "title": "Cross-Training & Recovery Library",
+    "description": "A picker-style library of activities for evening training and recovery. Unlike the Minimalift lifting program (date-ordered), this is a catalog: pick any activity, log its metrics, track improvement over time.",
+    "use_pattern": "User picks one or more activities per evening, logs metrics for each. App stores per-session log entries keyed by date and activity ID."
+  },
+  "categories": [
+    {
+      "id": "squash",
+      "name": "Squash",
+      "icon_hint": "racquet",
+      "description": "Court-based racquet sport. Solo drills build technique and footwork; match play tests it under pressure.",
+      "general_progression_tip": "Spend 60-70% of training time on solo drills (drives, boasts, volleys, ghosting) and 30-40% on match play. Solo drills are where stroke quality is built; matches are where you stress-test it.",
+      "activities": [
+        {
+          "id": "ghosting",
+          "name": "Ghosting",
+          "description": "Move to each of the 6 court corners (FL, FR, ML, MR, BL, BR) without a ball, simulating shot footwork. Builds movement patterns and squash-specific conditioning.",
+          "duration_typical_min": 15,
+          "intensity": "high",
+          "equipment": [
+            "squash court"
+          ],
+          "metrics": [
+            {
+              "key": "rounds",
+              "label": "Rounds completed",
+              "unit": "rounds",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "time_per_round_s",
+              "label": "Time per round",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "down"
+            },
+            {
+              "key": "rest_between_s",
+              "label": "Rest between rounds",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "down",
+              "note": "Less rest = better conditioning"
+            }
+          ],
+          "improvement_tip": "Start with 6 corners x 4 rounds, 60s rest. Progress by either lowering rest (60s -> 45s -> 30s) or adding rounds (4 -> 6 -> 8). Don't add both at once.",
+          "youtube_url": null
+        },
+        {
+          "id": "solo-length-drives",
+          "name": "Solo Length Drives",
+          "description": "Hit straight drives down the wall, alternating forehand and backhand, aiming for the back third of the court. The single most important drill for squash.",
+          "duration_typical_min": 20,
+          "intensity": "moderate",
+          "equipment": [
+            "squash court",
+            "racquet",
+            "ball"
+          ],
+          "metrics": [
+            {
+              "key": "consecutive_fh",
+              "label": "Best FH streak",
+              "unit": "shots",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "consecutive_bh",
+              "label": "Best BH streak",
+              "unit": "shots",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "total_shots_in_session",
+              "label": "Total shots",
+              "unit": "shots",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Aim for 50 consecutive forehand drives landing past the short line, then 50 backhand. Once consistent, narrow the target zone (back third only, then back quarter).",
+          "youtube_url": null
+        },
+        {
+          "id": "solo-boast-drive",
+          "name": "Solo Boast & Drive",
+          "description": "Hit a boast (3-wall) from the back, sprint to the front, hit a straight drive, return. Combines movement and shot variety.",
+          "duration_typical_min": 15,
+          "intensity": "high",
+          "equipment": [
+            "squash court",
+            "racquet",
+            "ball"
+          ],
+          "metrics": [
+            {
+              "key": "rounds_completed",
+              "label": "Rounds completed",
+              "unit": "rounds",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "longest_unbroken_sequence",
+              "label": "Longest unbroken sequence",
+              "unit": "shots",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Start with sets of 10 boast-drive sequences. Track how many you can complete without losing the ball. Add a volley before the boast to build the full pattern.",
+          "youtube_url": null
+        },
+        {
+          "id": "solo-volleys",
+          "name": "Solo Volley Drills",
+          "description": "Stand mid-court, volley the ball repeatedly off the front wall above the cut line. Builds racquet control and reaction speed.",
+          "duration_typical_min": 10,
+          "intensity": "moderate",
+          "equipment": [
+            "squash court",
+            "racquet",
+            "ball"
+          ],
+          "metrics": [
+            {
+              "key": "longest_volley_streak",
+              "label": "Longest volley streak",
+              "unit": "volleys",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "total_volleys",
+              "label": "Total volleys",
+              "unit": "volleys",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Target 50 unbroken volleys, then add constraints: forehand-only, backhand-only, alternating, or above-cut-line only.",
+          "youtube_url": null
+        },
+        {
+          "id": "target-practice",
+          "name": "Target Practice (Cones in Corners)",
+          "description": "Place targets (cones, water bottles, towels) in back corners. Hit from the T, score 1 point per target hit out of 50 shots.",
+          "duration_typical_min": 15,
+          "intensity": "moderate",
+          "equipment": [
+            "squash court",
+            "racquet",
+            "ball",
+            "targets"
+          ],
+          "metrics": [
+            {
+              "key": "targets_hit_fh",
+              "label": "FH hits / 25",
+              "unit": "hits",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "targets_hit_bh",
+              "label": "BH hits / 25",
+              "unit": "hits",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "hit_percentage",
+              "label": "Total hit %",
+              "unit": "%",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Move the target progressively further into the corner as accuracy improves. Add a feeder shot (boast-then-drive into target) once static accuracy is solid.",
+          "youtube_url": null
+        },
+        {
+          "id": "condition-game",
+          "name": "Condition Game",
+          "description": "Match play with restrictions (e.g., 'length only' = no boasts/drops, 'one-sided' = one player must hit only forehand). Forces specific patterns under pressure.",
+          "duration_typical_min": 30,
+          "intensity": "high",
+          "equipment": [
+            "squash court",
+            "partner"
+          ],
+          "metrics": [
+            {
+              "key": "games_played",
+              "label": "Games played",
+              "unit": "games",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "games_won",
+              "label": "Games won",
+              "unit": "games",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "avg_rally_length",
+              "label": "Avg rally length",
+              "unit": "shots",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Pick one weakness (e.g., backhand drives) and use a condition game that forces it. 30 minutes of condition games beats 30 minutes of unrestricted match play for skill development.",
+          "youtube_url": null
+        },
+        {
+          "id": "match-play",
+          "name": "Match Play",
+          "description": "Standard match (best of 3 or 5 games to 11). The pressure test for everything.",
+          "duration_typical_min": 45,
+          "intensity": "high",
+          "equipment": [
+            "squash court",
+            "partner"
+          ],
+          "metrics": [
+            {
+              "key": "games_won",
+              "label": "Games won",
+              "unit": "games",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "games_lost",
+              "label": "Games lost",
+              "unit": "games",
+              "type": "number",
+              "improvement_direction": "down"
+            },
+            {
+              "key": "opponent_level",
+              "label": "Opponent level",
+              "unit": "1-10",
+              "type": "number",
+              "improvement_direction": "context",
+              "note": "Higher number = stronger opponent. Context for interpreting wins/losses."
+            },
+            {
+              "key": "notes_freeform",
+              "label": "Notes",
+              "unit": "text",
+              "type": "text",
+              "improvement_direction": "context"
+            }
+          ],
+          "improvement_tip": "Track win rate against opponents of similar level over rolling 10-match windows. Note one tactical takeaway per match — patterns reveal themselves over months.",
+          "youtube_url": null
+        }
+      ]
+    },
+    {
+      "id": "running",
+      "name": "Running",
+      "icon_hint": "running",
+      "description": "Aerobic training with five distinct workout types. The 80/20 rule: roughly 80% of running should be easy, 20% hard.",
+      "general_progression_tip": "Build aerobic base first with easy runs. Add ONE quality session per week (tempo, intervals, OR hills — not all three). Increase weekly mileage by no more than 10% week-over-week.",
+      "activities": [
+        {
+          "id": "easy-run",
+          "name": "Easy / Zone 2 Run",
+          "description": "Conversational pace, low heart rate. The bedrock of aerobic fitness — the run you should do most often.",
+          "duration_typical_min": 30,
+          "intensity": "low",
+          "equipment": [
+            "running shoes"
+          ],
+          "metrics": [
+            {
+              "key": "distance_mi",
+              "label": "Distance",
+              "unit": "miles",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "duration_min",
+              "label": "Duration",
+              "unit": "minutes",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "avg_pace_per_mi",
+              "label": "Avg pace",
+              "unit": "min/mi",
+              "type": "pace",
+              "improvement_direction": "down",
+              "note": "At constant easy HR, faster pace over time = improvement"
+            },
+            {
+              "key": "avg_hr_bpm",
+              "label": "Avg HR",
+              "unit": "bpm",
+              "type": "number",
+              "improvement_direction": "down",
+              "note": "At constant easy pace, lower HR over time = improvement"
+            }
+          ],
+          "improvement_tip": "Stay below ~75% of max HR (or 'can hold a conversation' pace). Most people run their easy days too hard. If unsure, slow down — it's the workout that compounds the most.",
+          "youtube_url": null
+        },
+        {
+          "id": "tempo-run",
+          "name": "Tempo / Threshold Run",
+          "description": "Sustained 'comfortably hard' pace, just below the point where lactate accumulates. 20-40 min at threshold pace, after a warmup.",
+          "duration_typical_min": 45,
+          "intensity": "high",
+          "equipment": [
+            "running shoes"
+          ],
+          "metrics": [
+            {
+              "key": "tempo_distance_mi",
+              "label": "Tempo distance",
+              "unit": "miles",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "tempo_duration_min",
+              "label": "Tempo duration",
+              "unit": "minutes",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "tempo_pace_per_mi",
+              "label": "Tempo pace",
+              "unit": "min/mi",
+              "type": "pace",
+              "improvement_direction": "down"
+            },
+            {
+              "key": "avg_hr_bpm",
+              "label": "Avg HR (tempo portion)",
+              "unit": "bpm",
+              "type": "number",
+              "improvement_direction": "context"
+            }
+          ],
+          "improvement_tip": "Once a week max. Start with 2x10 min @ threshold w/ 2 min easy between. Progress to 1x20 min, then 1x30, then 1x40 over a few months.",
+          "youtube_url": null
+        },
+        {
+          "id": "intervals",
+          "name": "Intervals (VO2 Max)",
+          "description": "Short, hard repeats with recovery — e.g., 6x800m or 10x400m at 5K-race pace or faster.",
+          "duration_typical_min": 45,
+          "intensity": "high",
+          "equipment": [
+            "running shoes",
+            "track or measured loop"
+          ],
+          "metrics": [
+            {
+              "key": "rep_distance_m",
+              "label": "Rep distance",
+              "unit": "meters",
+              "type": "number",
+              "improvement_direction": "context"
+            },
+            {
+              "key": "rep_count",
+              "label": "Rep count",
+              "unit": "reps",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "avg_rep_time_s",
+              "label": "Avg rep time",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "down"
+            },
+            {
+              "key": "fastest_rep_time_s",
+              "label": "Fastest rep",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "down"
+            },
+            {
+              "key": "rest_between_s",
+              "label": "Rest between reps",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "down",
+              "note": "Same pace with shorter rest = improved recovery capacity"
+            }
+          ],
+          "improvement_tip": "Don't make every interval session faster. Alternate weeks: pace progression (same volume, faster) and volume progression (same pace, more reps). Once a week max — these are taxing.",
+          "youtube_url": null
+        },
+        {
+          "id": "long-run",
+          "name": "Long Run",
+          "description": "The longest run of the week, at easy pace. Builds endurance, capillary density, and mental resilience.",
+          "duration_typical_min": 75,
+          "intensity": "moderate",
+          "equipment": [
+            "running shoes"
+          ],
+          "metrics": [
+            {
+              "key": "distance_mi",
+              "label": "Distance",
+              "unit": "miles",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "duration_min",
+              "label": "Duration",
+              "unit": "minutes",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "avg_pace_per_mi",
+              "label": "Avg pace",
+              "unit": "min/mi",
+              "type": "pace",
+              "improvement_direction": "context"
+            },
+            {
+              "key": "avg_hr_bpm",
+              "label": "Avg HR",
+              "unit": "bpm",
+              "type": "number",
+              "improvement_direction": "context"
+            }
+          ],
+          "improvement_tip": "Long run should be 25-30% of weekly mileage, no more. Build distance over months, not weeks. If targeting a race, peak long run is ~75-80% of race distance for half-marathon and below.",
+          "youtube_url": null
+        },
+        {
+          "id": "hill-repeats",
+          "name": "Hill Repeats",
+          "description": "Run hard up a hill (30s-90s), jog/walk back down. Builds power, strength, and form without the impact of flat sprints.",
+          "duration_typical_min": 35,
+          "intensity": "high",
+          "equipment": [
+            "running shoes",
+            "hill"
+          ],
+          "metrics": [
+            {
+              "key": "rep_count",
+              "label": "Rep count",
+              "unit": "reps",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "hill_duration_s",
+              "label": "Hill effort time",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "down",
+              "note": "Same hill, faster time = power improvement"
+            },
+            {
+              "key": "hill_grade_pct",
+              "label": "Hill grade",
+              "unit": "%",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Start with 6x30s hill repeats. Add 1-2 reps every other week. Once you're at 12 reps, increase the hill duration to 60s and reset rep count to 6.",
+          "youtube_url": null
+        },
+        {
+          "id": "strides",
+          "name": "Strides",
+          "description": "4-6 x 20s of fast, relaxed running with full recovery, usually at the end of an easy run. Maintains turnover and form.",
+          "duration_typical_min": 10,
+          "intensity": "moderate",
+          "equipment": [
+            "running shoes"
+          ],
+          "metrics": [
+            {
+              "key": "stride_count",
+              "label": "Strides completed",
+              "unit": "strides",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "stride_duration_s",
+              "label": "Stride duration",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "These aren't a workout, they're a tune-up. 2-3 sessions per week of 4-6 strides keeps your fast-twitch fibers and form sharp during base-building.",
+          "youtube_url": null
+        },
+        {
+          "id": "5k-time-trial",
+          "name": "5K Time Trial",
+          "description": "Hard solo 5K. The benchmark workout — a single number that tracks fitness over months.",
+          "duration_typical_min": 35,
+          "intensity": "max",
+          "equipment": [
+            "running shoes",
+            "measured course or track"
+          ],
+          "metrics": [
+            {
+              "key": "time_min_sec",
+              "label": "Time",
+              "unit": "mm:ss",
+              "type": "duration",
+              "improvement_direction": "down"
+            },
+            {
+              "key": "avg_pace_per_mi",
+              "label": "Avg pace",
+              "unit": "min/mi",
+              "type": "pace",
+              "improvement_direction": "down"
+            }
+          ],
+          "improvement_tip": "Run this every 6-8 weeks, not more. Same course, same conditions if possible. The trend matters far more than any single time.",
+          "youtube_url": null
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "name": "Core",
+      "icon_hint": "core",
+      "description": "Anti-extension, anti-rotation, and anti-lateral-flexion work. The core's job is to resist movement, not produce it.",
+      "general_progression_tip": "Pick one exercise from each of the three categories (anti-extension, anti-rotation, anti-lateral) per session. Progress by adding hold time, reps, or load — but only one variable at a time.",
+      "activities": [
+        {
+          "id": "plank",
+          "name": "Plank (Anti-Extension)",
+          "description": "Hold a forearm plank with neutral spine. Resists lower-back extension.",
+          "duration_typical_min": 5,
+          "intensity": "low",
+          "equipment": [],
+          "metrics": [
+            {
+              "key": "hold_time_s",
+              "label": "Hold time",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "sets",
+              "label": "Sets",
+              "unit": "sets",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Cap holds at 60s; beyond that, you're testing endurance, not core strength. Once you can hold 60s with perfect form, progress to RKC plank (max-tension version) or weighted plank.",
+          "youtube_url": null
+        },
+        {
+          "id": "side-plank",
+          "name": "Side Plank (Anti-Lateral Flexion)",
+          "description": "Hold a side plank on forearm. Resists sideways spinal flexion.",
+          "duration_typical_min": 5,
+          "intensity": "low",
+          "equipment": [],
+          "metrics": [
+            {
+              "key": "hold_time_left_s",
+              "label": "Left hold",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "hold_time_right_s",
+              "label": "Right hold",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Note any left-right asymmetry — it's common and worth correcting. If one side is 30%+ weaker, do one extra set on that side until it catches up.",
+          "youtube_url": null
+        },
+        {
+          "id": "hollow-body-hold",
+          "name": "Hollow Body Hold",
+          "description": "Lie on back, lift legs and shoulders off floor, lower back pressed down. Builds total anterior core tension.",
+          "duration_typical_min": 5,
+          "intensity": "moderate",
+          "equipment": [],
+          "metrics": [
+            {
+              "key": "hold_time_s",
+              "label": "Hold time",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "sets",
+              "label": "Sets",
+              "unit": "sets",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Start tucked (knees bent, arms by sides), progress to one-leg extended, then both legs extended, then both legs and arms extended overhead. Each progression adds a lever, not just time.",
+          "youtube_url": null
+        },
+        {
+          "id": "dead-bug",
+          "name": "Dead Bug",
+          "description": "Lie on back, alternate lowering opposite arm and leg while keeping lower back pressed to floor. Anti-extension with limb dissociation.",
+          "duration_typical_min": 5,
+          "intensity": "low",
+          "equipment": [],
+          "metrics": [
+            {
+              "key": "reps_per_side",
+              "label": "Reps per side",
+              "unit": "reps",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "sets",
+              "label": "Sets",
+              "unit": "sets",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "tempo_s_per_rep",
+              "label": "Tempo per rep",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up",
+              "note": "Slower = harder. 5s down, 5s up is brutal."
+            }
+          ],
+          "improvement_tip": "Quality over quantity. If your lower back lifts off the floor at any point, the rep doesn't count. Progress tempo before reps.",
+          "youtube_url": null
+        },
+        {
+          "id": "pallof-press",
+          "name": "Pallof Press (Anti-Rotation)",
+          "description": "Stand sideways to a cable or band, press handle straight out from chest, resist the rotational pull. The premier anti-rotation exercise.",
+          "duration_typical_min": 5,
+          "intensity": "moderate",
+          "equipment": [
+            "cable machine or resistance band"
+          ],
+          "metrics": [
+            {
+              "key": "weight_lbs",
+              "label": "Weight / Band tension",
+              "unit": "lbs",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "reps_per_side",
+              "label": "Reps per side",
+              "unit": "reps",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "hold_time_s",
+              "label": "Hold at full extension",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Add a 2-second pause at full extension. Progress: standing -> half-kneeling -> tall-kneeling -> single-leg standing. Each stance forces more core stabilization.",
+          "youtube_url": null
+        },
+        {
+          "id": "hanging-leg-raise",
+          "name": "Hanging Leg Raise",
+          "description": "Hang from a bar, lift legs to horizontal (or higher) without swinging. Strict version is significantly harder than knee raises.",
+          "duration_typical_min": 5,
+          "intensity": "high",
+          "equipment": [
+            "pull-up bar"
+          ],
+          "metrics": [
+            {
+              "key": "reps",
+              "label": "Reps",
+              "unit": "reps",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "sets",
+              "label": "Sets",
+              "unit": "sets",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Progression: knee raises -> straight-leg raises to horizontal -> toes-to-bar -> windshield wipers. If swinging starts, the rep doesn't count.",
+          "youtube_url": null
+        },
+        {
+          "id": "suitcase-carry",
+          "name": "Suitcase Carry",
+          "description": "Carry a heavy weight in one hand, walk for distance/time without leaning. Loaded anti-lateral-flexion plus grip.",
+          "duration_typical_min": 10,
+          "intensity": "moderate",
+          "equipment": [
+            "dumbbell or kettlebell"
+          ],
+          "metrics": [
+            {
+              "key": "weight_lbs",
+              "label": "Weight",
+              "unit": "lbs",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "distance_ft",
+              "label": "Distance",
+              "unit": "feet",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "time_per_side_s",
+              "label": "Time per side",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Goal is bodyweight in one hand for 60s per side. Walk slow and tall — if you start tilting, the weight is too heavy.",
+          "youtube_url": null
+        },
+        {
+          "id": "ab-wheel-rollout",
+          "name": "Ab Wheel Rollout",
+          "description": "From knees (or feet), roll the wheel forward, extend arms overhead, return to start without sagging. Anti-extension under load.",
+          "duration_typical_min": 5,
+          "intensity": "high",
+          "equipment": [
+            "ab wheel"
+          ],
+          "metrics": [
+            {
+              "key": "reps",
+              "label": "Reps",
+              "unit": "reps",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "sets",
+              "label": "Sets",
+              "unit": "sets",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "variant",
+              "label": "Variant",
+              "unit": "kneeling|standing",
+              "type": "text",
+              "improvement_direction": "context"
+            }
+          ],
+          "improvement_tip": "Master 10 strict kneeling rollouts before attempting standing. Standing is a 5x harder progression — most people skip the kneeling phase too early.",
+          "youtube_url": null
+        }
+      ]
+    },
+    {
+      "id": "plyometrics",
+      "name": "Plyometrics",
+      "icon_hint": "jump",
+      "description": "Explosive, ground-contact-driven exercises that build power and reactive strength. Overlap with squash and running carryover.",
+      "general_progression_tip": "Plyos are quality, not quantity work. Stop the set when output drops — fewer high-quality reps beats more fatigued reps. Cap total ground contacts at ~80-120 per session.",
+      "activities": [
+        {
+          "id": "box-jump",
+          "name": "Box Jump",
+          "description": "Two-foot jump onto a box, stand tall, step (don't jump) down. Pure concentric power.",
+          "duration_typical_min": 10,
+          "intensity": "high",
+          "equipment": [
+            "plyo box"
+          ],
+          "metrics": [
+            {
+              "key": "box_height_in",
+              "label": "Box height",
+              "unit": "inches",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "reps",
+              "label": "Reps",
+              "unit": "reps",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "sets",
+              "label": "Sets",
+              "unit": "sets",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Step DOWN, not jump down. Most box-jump injuries happen on the descent. Box height is a vanity metric beyond ~30 inches; switch focus to loaded jumps or depth jumps for real progression.",
+          "youtube_url": null
+        },
+        {
+          "id": "broad-jump",
+          "name": "Broad Jump",
+          "description": "Standing horizontal jump for distance. Tests concentric power in the horizontal plane.",
+          "duration_typical_min": 10,
+          "intensity": "high",
+          "equipment": [
+            "measuring tape"
+          ],
+          "metrics": [
+            {
+              "key": "max_distance_in",
+              "label": "Max distance",
+              "unit": "inches",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "avg_distance_in",
+              "label": "Avg distance over set",
+              "unit": "inches",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "reps",
+              "label": "Reps",
+              "unit": "reps",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Track max distance monthly — daily max attempts wear down the nervous system. Use submaximal jumps (90% effort) for most reps and test true max only every 4-6 weeks.",
+          "youtube_url": null
+        },
+        {
+          "id": "depth-jump",
+          "name": "Depth Jump",
+          "description": "Step off a box, land, and immediately rebound jump up. Trains reactive strength and short ground contact times.",
+          "duration_typical_min": 15,
+          "intensity": "high",
+          "equipment": [
+            "plyo box"
+          ],
+          "metrics": [
+            {
+              "key": "drop_height_in",
+              "label": "Drop height",
+              "unit": "inches",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "rebound_height_in",
+              "label": "Rebound height",
+              "unit": "inches",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "contact_time_ms",
+              "label": "Ground contact time",
+              "unit": "ms",
+              "type": "number",
+              "improvement_direction": "down",
+              "note": "Sub-200ms is the goal. Phone slow-mo + frame counting gets you close enough."
+            },
+            {
+              "key": "reps",
+              "label": "Reps",
+              "unit": "reps",
+              "type": "number",
+              "improvement_direction": "context"
+            }
+          ],
+          "improvement_tip": "Start with 12-18 inch drop. The goal is to MINIMIZE ground contact time, not maximize rebound. If contact time goes above 250ms, the box is too high — drop it.",
+          "youtube_url": null
+        },
+        {
+          "id": "pogo-jumps",
+          "name": "Pogo Jumps",
+          "description": "Quick, low, two-foot rebound jumps with stiff ankles and minimal knee bend. Builds Achilles and calf reactive strength.",
+          "duration_typical_min": 5,
+          "intensity": "moderate",
+          "equipment": [],
+          "metrics": [
+            {
+              "key": "reps_in_30s",
+              "label": "Reps in 30 seconds",
+              "unit": "reps",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "max_consecutive",
+              "label": "Max consecutive",
+              "unit": "reps",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "sets",
+              "label": "Sets",
+              "unit": "sets",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Stay tall — the bounce comes from the ankles, not the hips. Aim for 50+ reps in 30 seconds before adding load or moving to single-leg variants.",
+          "youtube_url": null
+        },
+        {
+          "id": "lateral-bound",
+          "name": "Lateral Bound",
+          "description": "Single-leg jump sideways, land on the opposite leg, stick the landing or rebound. Trains lateral power for squash and change-of-direction.",
+          "duration_typical_min": 10,
+          "intensity": "high",
+          "equipment": [],
+          "metrics": [
+            {
+              "key": "max_distance_in",
+              "label": "Max distance per bound",
+              "unit": "inches",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "reps_per_side",
+              "label": "Reps per side",
+              "unit": "reps",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "stuck_landings_pct",
+              "label": "Stuck landings %",
+              "unit": "%",
+              "type": "number",
+              "improvement_direction": "up",
+              "note": "A stuck landing = no extra hop or stumble"
+            }
+          ],
+          "improvement_tip": "Stick every landing for the first month. Once you can stick 10/10, start adding a rebound (continuous bounding) for more elastic strength.",
+          "youtube_url": null
+        },
+        {
+          "id": "tuck-jump",
+          "name": "Tuck Jump",
+          "description": "Vertical jump pulling knees to chest. Builds vertical power and core engagement.",
+          "duration_typical_min": 5,
+          "intensity": "high",
+          "equipment": [],
+          "metrics": [
+            {
+              "key": "reps_in_30s",
+              "label": "Reps in 30s",
+              "unit": "reps",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "perceived_height",
+              "label": "Perceived height (1-10)",
+              "unit": "1-10",
+              "type": "rating",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Land soft, knees tracking over toes. If form breaks down (collapsing knees, slow turnover), end the set — fatigued plyos teach bad patterns.",
+          "youtube_url": null
+        },
+        {
+          "id": "med-ball-slam",
+          "name": "Medicine Ball Slam",
+          "description": "Lift medicine ball overhead, slam down with full body. Trains rotational and overhead power; great finisher.",
+          "duration_typical_min": 10,
+          "intensity": "high",
+          "equipment": [
+            "medicine ball (slam ball)"
+          ],
+          "metrics": [
+            {
+              "key": "ball_weight_lbs",
+              "label": "Ball weight",
+              "unit": "lbs",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "reps",
+              "label": "Reps",
+              "unit": "reps",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "sets",
+              "label": "Sets",
+              "unit": "sets",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Use a non-bouncing slam ball. Add rotational variants (over-shoulder slam) once base slam is comfortable at your target weight.",
+          "youtube_url": null
+        }
+      ]
+    },
+    {
+      "id": "stretching",
+      "name": "Stretching",
+      "icon_hint": "stretch",
+      "description": "Targeted mobility for areas commonly tightened by lifting, sitting, and squash. 5-15 min total per session is plenty.",
+      "general_progression_tip": "Range of motion improves slowly — track the same stretch in the same conditions weekly, not daily. 'Improvement' is a 1-10 self-rated depth or a measurable reach distance.",
+      "activities": [
+        {
+          "id": "couch-stretch",
+          "name": "Couch Stretch",
+          "description": "Rear foot elevated on couch/wall, front knee bent, hip extended. Targets hip flexors and quads — the #1 tight area for lifters and runners.",
+          "duration_typical_min": 4,
+          "intensity": "low",
+          "equipment": [
+            "couch or wall"
+          ],
+          "metrics": [
+            {
+              "key": "hold_time_left_s",
+              "label": "Left hold",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "hold_time_right_s",
+              "label": "Right hold",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "depth_rating_1to10",
+              "label": "Depth rating (1-10)",
+              "unit": "1-10",
+              "type": "rating",
+              "improvement_direction": "up",
+              "note": "10 = upright torso with rear hip in full extension"
+            }
+          ],
+          "improvement_tip": "Aim for 2 min per side, daily if possible. The first 30 seconds are tightness; the real change happens in the back half of the hold.",
+          "youtube_url": null
+        },
+        {
+          "id": "90-90-stretch",
+          "name": "90/90 Hip Stretch",
+          "description": "Both hips at 90 degrees, one in front (internal rotation), one to the side (external rotation). Best single drill for hip rotational mobility.",
+          "duration_typical_min": 5,
+          "intensity": "low",
+          "equipment": [],
+          "metrics": [
+            {
+              "key": "hold_time_left_s",
+              "label": "Left hold",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "hold_time_right_s",
+              "label": "Right hold",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "depth_rating_1to10",
+              "label": "Depth rating (1-10)",
+              "unit": "1-10",
+              "type": "rating",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Goal is to lower your chest to your front knee with both sit bones on the floor. Add an active version (lift-offs) once the static version feels easy.",
+          "youtube_url": null
+        },
+        {
+          "id": "pigeon-pose",
+          "name": "Pigeon Pose",
+          "description": "Front leg bent across body, back leg extended straight back, fold forward. Targets glutes and external hip rotators.",
+          "duration_typical_min": 5,
+          "intensity": "low",
+          "equipment": [],
+          "metrics": [
+            {
+              "key": "hold_time_left_s",
+              "label": "Left hold",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "hold_time_right_s",
+              "label": "Right hold",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "depth_rating_1to10",
+              "label": "Depth rating (1-10)",
+              "unit": "1-10",
+              "type": "rating",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "If your hip on the bent-leg side is way off the floor, prop it with a folded towel — fighting that gap creates compensation patterns elsewhere.",
+          "youtube_url": null
+        },
+        {
+          "id": "pancake",
+          "name": "Pancake Stretch",
+          "description": "Seated wide-legged forward fold. Targets adductors and hamstrings simultaneously.",
+          "duration_typical_min": 5,
+          "intensity": "low",
+          "equipment": [],
+          "metrics": [
+            {
+              "key": "hold_time_s",
+              "label": "Hold time",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "forehead_to_floor_in",
+              "label": "Forehead-to-floor",
+              "unit": "inches",
+              "type": "number",
+              "improvement_direction": "down",
+              "note": "Smaller distance = closer to fully flat"
+            }
+          ],
+          "improvement_tip": "PNF protocol works well here: 30s passive hold, 10s gentle muscle contraction (push knees down), 30s deeper passive hold. Repeat 3x.",
+          "youtube_url": null
+        },
+        {
+          "id": "thoracic-rotation",
+          "name": "Thoracic Rotation (Open Book)",
+          "description": "Side-lying or quadruped, rotate upper back and reach overhead. Targets thoracic spine — typically stiff in lifters.",
+          "duration_typical_min": 5,
+          "intensity": "low",
+          "equipment": [],
+          "metrics": [
+            {
+              "key": "reps_per_side",
+              "label": "Reps per side",
+              "unit": "reps",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "rom_rating_1to10",
+              "label": "ROM rating (1-10)",
+              "unit": "1-10",
+              "type": "rating",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Pause at end-range for 2 seconds each rep — that's where the change happens. Pair with deep exhale at end-range.",
+          "youtube_url": null
+        },
+        {
+          "id": "shoulder-dislocates",
+          "name": "Shoulder Dislocates (Band/PVC)",
+          "description": "Hold a band or PVC pipe, rotate it from in front to behind your back, keeping arms straight. Restores shoulder overhead mobility.",
+          "duration_typical_min": 3,
+          "intensity": "low",
+          "equipment": [
+            "band or PVC pipe"
+          ],
+          "metrics": [
+            {
+              "key": "reps",
+              "label": "Reps",
+              "unit": "reps",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "grip_width_in",
+              "label": "Grip width",
+              "unit": "inches",
+              "type": "number",
+              "improvement_direction": "down",
+              "note": "Narrower grip = more shoulder mobility"
+            }
+          ],
+          "improvement_tip": "Start as wide as needed for pain-free rotation. Narrow the grip by 1 inch every 2 weeks until you reach shoulder-width.",
+          "youtube_url": null
+        },
+        {
+          "id": "calf-stretch",
+          "name": "Calf Stretch (Wall)",
+          "description": "Foot against wall, lean forward — separate sets for gastrocnemius (straight knee) and soleus (bent knee). Critical for runners and squash players.",
+          "duration_typical_min": 4,
+          "intensity": "low",
+          "equipment": [
+            "wall"
+          ],
+          "metrics": [
+            {
+              "key": "hold_time_left_s",
+              "label": "Left hold (per variant)",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "hold_time_right_s",
+              "label": "Right hold (per variant)",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "ankle_dorsiflexion_in",
+              "label": "Knee-to-wall distance",
+              "unit": "inches",
+              "type": "number",
+              "improvement_direction": "up",
+              "note": "Distance from toes to wall when knee touches = measure of dorsiflexion"
+            }
+          ],
+          "improvement_tip": "Knee-to-wall test: stand facing a wall, push knee forward to touch wall. Distance from toes to wall is your dorsiflexion. Goal is 5+ inches.",
+          "youtube_url": null
+        }
+      ]
+    },
+    {
+      "id": "recovery",
+      "name": "Recovery",
+      "icon_hint": "recovery",
+      "description": "Active and passive recovery modalities. The work is done; this is what lets adaptation happen.",
+      "general_progression_tip": "Recovery isn't about doing more — it's about consistency. Pick 2-3 modalities you'll actually do and rotate them, rather than trying to stack everything every day.",
+      "activities": [
+        {
+          "id": "foam-rolling",
+          "name": "Foam Rolling",
+          "description": "Self-myofascial release on quads, glutes, IT band, lats, t-spine. Moderate pressure, not pain-inducing.",
+          "duration_typical_min": 10,
+          "intensity": "low",
+          "equipment": [
+            "foam roller"
+          ],
+          "metrics": [
+            {
+              "key": "duration_min",
+              "label": "Duration",
+              "unit": "minutes",
+              "type": "number",
+              "improvement_direction": "context"
+            },
+            {
+              "key": "areas_covered_count",
+              "label": "Body areas covered",
+              "unit": "count",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "perceived_tension_pre",
+              "label": "Tension before (1-10)",
+              "unit": "1-10",
+              "type": "rating",
+              "improvement_direction": "context"
+            },
+            {
+              "key": "perceived_tension_post",
+              "label": "Tension after (1-10)",
+              "unit": "1-10",
+              "type": "rating",
+              "improvement_direction": "down"
+            }
+          ],
+          "improvement_tip": "If a spot is genuinely tender, hold pressure for 30-45s — don't roll through it. Track pre/post tension over weeks; chronically tight areas should trend down.",
+          "youtube_url": null
+        },
+        {
+          "id": "mobility-flow",
+          "name": "Mobility Flow",
+          "description": "Continuous sequence linking 5-8 mobility movements (e.g., World's Greatest Stretch, deep squat to pike, t-spine windmills). Low intensity, full body.",
+          "duration_typical_min": 15,
+          "intensity": "low",
+          "equipment": [],
+          "metrics": [
+            {
+              "key": "duration_min",
+              "label": "Duration",
+              "unit": "minutes",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "perceived_quality_1to10",
+              "label": "Perceived quality (1-10)",
+              "unit": "1-10",
+              "type": "rating",
+              "improvement_direction": "up",
+              "note": "How fluid did the movements feel?"
+            }
+          ],
+          "improvement_tip": "Build a fixed 10-minute sequence and run it daily. Same sequence weekly = visible improvement; constantly switching exercises = no benchmark.",
+          "youtube_url": null
+        },
+        {
+          "id": "easy-walk",
+          "name": "Easy Walk",
+          "description": "20-60 minute walk at low intensity. Underrated — promotes blood flow without adding training stress.",
+          "duration_typical_min": 30,
+          "intensity": "low",
+          "equipment": [],
+          "metrics": [
+            {
+              "key": "distance_mi",
+              "label": "Distance",
+              "unit": "miles",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "duration_min",
+              "label": "Duration",
+              "unit": "minutes",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "steps",
+              "label": "Steps",
+              "unit": "steps",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Walks aren't a workout — don't push the pace. The benefit is parasympathetic recovery, which is destroyed by going hard.",
+          "youtube_url": null
+        },
+        {
+          "id": "sauna",
+          "name": "Sauna",
+          "description": "Dry heat exposure, typically 170-200°F. Heat acclimation has cardiovascular and recovery benefits.",
+          "duration_typical_min": 20,
+          "intensity": "low",
+          "equipment": [
+            "sauna"
+          ],
+          "metrics": [
+            {
+              "key": "duration_min",
+              "label": "Duration",
+              "unit": "minutes",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "temp_f",
+              "label": "Max temperature",
+              "unit": "°F",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "sessions_this_week",
+              "label": "Sessions this week",
+              "unit": "sessions",
+              "type": "number",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "4 sessions x 20 min/week is the dose with the strongest research support. Hydrate before, during, and after — heat dehydrates fast.",
+          "youtube_url": null
+        },
+        {
+          "id": "cold-plunge",
+          "name": "Cold Plunge / Cold Shower",
+          "description": "Cold water exposure, 50-60°F. Sympathetic nervous system activation; controversial for muscle adaptation but useful for recovery between same-day sessions.",
+          "duration_typical_min": 5,
+          "intensity": "moderate",
+          "equipment": [
+            "cold tub or cold shower"
+          ],
+          "metrics": [
+            {
+              "key": "duration_s",
+              "label": "Duration",
+              "unit": "seconds",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "water_temp_f",
+              "label": "Water temperature",
+              "unit": "°F",
+              "type": "number",
+              "improvement_direction": "down"
+            }
+          ],
+          "improvement_tip": "AVOID immediately after lifting if hypertrophy is the goal — cold blunts the muscle-building signal for hours. Use it on rest days or after squash/cardio instead.",
+          "youtube_url": null
+        },
+        {
+          "id": "yoga",
+          "name": "Yoga / Restorative Flow",
+          "description": "Restorative or yin-style yoga, 20-45 minutes. Combines mobility, breathing, and parasympathetic activation.",
+          "duration_typical_min": 30,
+          "intensity": "low",
+          "equipment": [
+            "yoga mat"
+          ],
+          "metrics": [
+            {
+              "key": "duration_min",
+              "label": "Duration",
+              "unit": "minutes",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "perceived_relaxation_1to10",
+              "label": "Perceived relaxation (1-10)",
+              "unit": "1-10",
+              "type": "rating",
+              "improvement_direction": "up"
+            }
+          ],
+          "improvement_tip": "Restorative or yin styles serve recovery best. Avoid power/vinyasa flows on heavy lifting days — they add training stress instead of dissipating it.",
+          "youtube_url": null
+        },
+        {
+          "id": "box-breathing",
+          "name": "Box Breathing",
+          "description": "Inhale 4s, hold 4s, exhale 4s, hold 4s — 5-10 minute sessions. Activates parasympathetic recovery; useful pre-sleep.",
+          "duration_typical_min": 8,
+          "intensity": "low",
+          "equipment": [],
+          "metrics": [
+            {
+              "key": "duration_min",
+              "label": "Duration",
+              "unit": "minutes",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "rounds",
+              "label": "Rounds completed",
+              "unit": "rounds",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "hr_pre_bpm",
+              "label": "HR before (bpm)",
+              "unit": "bpm",
+              "type": "number",
+              "improvement_direction": "context"
+            },
+            {
+              "key": "hr_post_bpm",
+              "label": "HR after (bpm)",
+              "unit": "bpm",
+              "type": "number",
+              "improvement_direction": "down"
+            }
+          ],
+          "improvement_tip": "Track HR drop from start to end of session. A 10+ bpm drop in 5 minutes signals strong parasympathetic activation. If the drop shrinks over weeks, you may be over-stressed.",
+          "youtube_url": null
+        },
+        {
+          "id": "sleep-tracking",
+          "name": "Sleep",
+          "description": "Not an activity per se — but the single most important recovery input. Track it.",
+          "duration_typical_min": 480,
+          "intensity": "low",
+          "equipment": [],
+          "metrics": [
+            {
+              "key": "hours_slept",
+              "label": "Hours slept",
+              "unit": "hours",
+              "type": "number",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "sleep_quality_1to10",
+              "label": "Sleep quality (1-10)",
+              "unit": "1-10",
+              "type": "rating",
+              "improvement_direction": "up"
+            },
+            {
+              "key": "bed_time",
+              "label": "Bed time",
+              "unit": "HH:MM",
+              "type": "time",
+              "improvement_direction": "context"
+            },
+            {
+              "key": "wake_time",
+              "label": "Wake time",
+              "unit": "HH:MM",
+              "type": "time",
+              "improvement_direction": "context"
+            }
+          ],
+          "improvement_tip": "Consistency of bed/wake times matters more than total hours. A consistent 7.5 hours beats a chaotic 8.5. Track for 4 weeks before drawing conclusions.",
+          "youtube_url": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1149 @@
+{
+  "title": "ALIGN — 8 Week Full Body Mobility Program",
+  "overview": {
+    "description": "Mobility program focusing on seven major joint complexes: ankles, hips, knees, thoracic spine, shoulders, and wrists.",
+    "structure": "4 phases of 2 weeks each. Each week has 6 days. 1-2 sets of everything is recommended unless otherwise noted. Sessions take 5-10 minutes.",
+    "schedule": {
+      "day_1": "Lower Body",
+      "day_2": "Upper Body",
+      "day_3": "Lower Body",
+      "day_4": "Upper Body",
+      "day_5": "Full Body (combination of days 1-4)",
+      "day_6": "Knees + Ankles"
+    }
+  },
+  "wrist_routine": {
+    "description": "Bonus routine — complete when needed or before upper body days.",
+    "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kBRnO8agEsdoPUAUkhuX9C_",
+    "exercises": [
+      {
+        "order": "A",
+        "movement": "Floor Circles (fingers forward, lateral, back)",
+        "sets_reps": "x20 each way",
+        "notes": "Make sure to switch which way you are circling half way through.",
+        "video": "https://youtu.be/pNBiRmzPtd8"
+      },
+      {
+        "order": "B",
+        "movement": "Deviations (forward, backward, lateral)",
+        "sets_reps": "x10 each way",
+        "notes": "Keep arms straight.",
+        "video": "https://youtube.com/shorts/auTIgzWcVII?feature=share"
+      },
+      {
+        "order": "C",
+        "movement": "Wrist Circles",
+        "sets_reps": "x20",
+        "notes": "Switch which way you are circling half way through / with each rep.",
+        "video": "https://youtube.com/shorts/xPeFEsxYTR4?feature=share"
+      },
+      {
+        "order": "D",
+        "movement": "Alt Hand Assisted Wrist Stretch",
+        "sets_reps": "x20",
+        "notes": "Use opposite hand to push to slightly uncomfortable position.",
+        "video": "https://youtube.com/shorts/k3g6PIcnoFQ?feature=share"
+      },
+      {
+        "order": "E",
+        "movement": "Palm Lifts",
+        "sets_reps": "x20",
+        "notes": "Keep arms straight. Raise palms as high as you can. The goal is to be at least parallel with your knuckles as you extend.",
+        "video": "https://youtube.com/shorts/5RncXhT1D5k"
+      },
+      {
+        "order": "F",
+        "movement": "Plank Finger Up Downs",
+        "sets_reps": "x20",
+        "notes": "Keep fingers straight, focus on pushing with your palms.",
+        "video": "https://youtube.com/shorts/mIGEswLiXmM"
+      }
+    ]
+  },
+  "phases": [
+    {
+      "phase": 1,
+      "weeks": "1-2",
+      "days": [
+        {
+          "day": 1,
+          "focus": "Lower Body",
+          "equipment": "none",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kA2dZllFXTSq4dPt4bVpVb8",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Hamstring Stretch + Hip Sink",
+              "sets_reps": "x8 each side",
+              "notes": "Try to get knees over toes as you sink.",
+              "video": "https://youtube.com/shorts/evIAfUISTbE"
+            },
+            {
+              "order": "B",
+              "movement": "Quadruped Hip Circles",
+              "sets_reps": "x10 each side",
+              "notes": "Form as big of circles as you can. Keep hips and shoulders square to the floor.",
+              "video": "https://youtube.com/shorts/WsBerCj_OjU?feature=share"
+            },
+            {
+              "order": "C",
+              "movement": "90/90 Internal Lift Off",
+              "sets_reps": "x10-12 each side",
+              "notes": "Hold at top for 2-3 secs, control down.",
+              "video": "https://youtube.com/shorts/q_721AAh97M"
+            },
+            {
+              "order": "D",
+              "movement": "90/90 External Lift Off",
+              "sets_reps": "x10-12 each side",
+              "notes": "Hold at top for 2-3 secs, control down.",
+              "video": "https://youtube.com/shorts/d9ARb9ARdDU"
+            },
+            {
+              "order": "E",
+              "movement": "Stationary 90/90 Switches",
+              "sets_reps": "x20",
+              "notes": "Place hands behind your back. The goal is to keep your knees as far away from each other as possible as you open.",
+              "video": "https://youtube.com/shorts/_1N4aeSn-5g"
+            },
+            {
+              "order": "F",
+              "movement": "Weighted KB Lateral Sink",
+              "sets_reps": "x10 each side",
+              "notes": "Try to get knees over your toes with each rep. Don't let db/kb rest on the floor.",
+              "video": "https://youtube.com/shorts/3JYIBh9-ZzI"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "focus": "Upper Body",
+          "equipment": "foam roller, long resistance band",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kA8ozK8ZzxKTGDHHs7-HW1k",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Foam Roller Thoracic Sit Ups",
+              "sets_reps": "x12-15",
+              "notes": "Arch spine as much as you can. Inhale as you flex, exhale as you extend.",
+              "video": "https://youtube.com/shorts/FzDGBUU6wmg"
+            },
+            {
+              "order": "B",
+              "movement": "Adductor Thread the Needle + Reach",
+              "sets_reps": "x8 each side",
+              "notes": "Aim to get shoulder to the floor. Rotate and reach as much as you can. Sink into your hip as you drop the shoulder.",
+              "video": "https://youtube.com/shorts/7oiuwkjdBg4?feature=share"
+            },
+            {
+              "order": "C",
+              "movement": "Scorpion Reaches",
+              "sets_reps": "x10-12",
+              "notes": "Arms are extended. The goal is to place opposite foot flat on the floor. As you place your foot, pull extended arm to chest. You want to feel a big stretch there.",
+              "video": "https://youtube.com/shorts/HzaBQE73pMc"
+            },
+            {
+              "order": "D",
+              "movement": "Prone Scapula Retraction",
+              "sets_reps": "x12",
+              "notes": "Pause at the top of each rep and squeeze as hard as you can. Raise elbows off the floor as high as possible. Slow and controlled.",
+              "video": "https://youtu.be/SqEW1teAg6M"
+            },
+            {
+              "order": "E",
+              "movement": "Prone Swimmer",
+              "sets_reps": "x12",
+              "notes": "Notice how palms change positions throughout the movement. Aim to reach as far behind your head/back as you can.",
+              "video": "https://youtu.be/Ve2x8_ThKpA"
+            },
+            {
+              "order": "F",
+              "movement": "Prone Lying Lat Pulldowns",
+              "sets_reps": "x12-15",
+              "notes": "Play around with distance but make sure there is no slack in the band. Squeeze shoulder blades together and pause.",
+              "video": "https://youtube.com/shorts/zAT41HoZ9q4"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "focus": "Lower Body",
+          "equipment": "long resistance band",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kBl79TYP0CkbCQM68yE3YAk",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Hamstring Stretch + Deep Squat",
+              "sets_reps": "x10",
+              "notes": "Notice how feet slightly shift positions. Feel free to hold onto a rack for assistance if needed.",
+              "video": "https://youtu.be/AZrgCXdRPmU"
+            },
+            {
+              "order": "B",
+              "movement": "Banded Kneeling Adductor Rocks",
+              "sets_reps": "x10 each side",
+              "notes": "Wrap band around kneeling knee's hip. Make sure the extended leg's toes points to the ceiling as you rock back.",
+              "video": "https://youtube.com/shorts/n4oyjzqa504"
+            },
+            {
+              "order": "C",
+              "movement": "Kneeling Paused Straight Leg Raises",
+              "sets_reps": "x8-10 each side",
+              "notes": "Pause for 2-3 secs at the top. Slow and controlled on the way down. Keep hips and shoulders square to floor.",
+              "video": "https://youtu.be/wuXT3jLfzPc"
+            },
+            {
+              "order": "D",
+              "movement": "Alt Low Cossack Squats",
+              "sets_reps": "x6-8 each side",
+              "notes": "You can hold onto a squat rack / something for assistance. Try to get as low as you can. Point opposite toe to ceiling.",
+              "video": "https://youtube.com/shorts/C5QgUdhbco0"
+            },
+            {
+              "order": "E",
+              "movement": "SL Airplanes",
+              "sets_reps": "x8 each side",
+              "notes": "Read description of the YouTube video for in-depth coaching cues.",
+              "video": "https://youtube.com/shorts/JoUqIeQqEiw"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "focus": "Upper Body",
+          "equipment": "long resistance band, wall",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kBA0PRN8Q-8tryTj1YpnV_Y",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Band Resisted Cat Cow",
+              "sets_reps": "x12",
+              "notes": "Wrap band around thumbs and low back. Exhale as you round the back, inhale as you arch the back.",
+              "video": "https://youtube.com/shorts/-cbij2PaV-Q"
+            },
+            {
+              "order": "B",
+              "movement": "Windshield Wiper Knee Drops",
+              "sets_reps": "x16",
+              "notes": "Arms are extended on the floor. Try your best to keep both shoulders on the floor. Make sure there is no space between the floor and your low back.",
+              "video": "https://youtube.com/shorts/lj9ZFjQdt1g"
+            },
+            {
+              "order": "C",
+              "movement": "Active Cobra",
+              "sets_reps": "x6-8 each way",
+              "notes": "Bring other shoulder across the chest, drop, and make a full circle. Slow and controlled. Switch which way you are circling.",
+              "video": "https://youtube.com/shorts/whQR6c28Ty0"
+            },
+            {
+              "order": "D",
+              "movement": "Prone Lying Banded Shoulder Dislocations",
+              "sets_reps": "x12",
+              "notes": "Arms stay straight. The closer your hands are together, the more difficult the movement is.",
+              "video": "https://youtube.com/shorts/hpa87stM9x8"
+            },
+            {
+              "order": "E",
+              "movement": "Band Resisted Wall Book Opener",
+              "sets_reps": "x8-10 each side",
+              "notes": "Let eyes follow your hand. Try to press entire back onto the wall as you rotate.",
+              "video": "https://youtube.com/shorts/9htDtAUwl8E"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "focus": "Full Body",
+          "equipment": "none",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kBq7jCZbdje1pFvQvnbh452",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Bootstrap + T Spine Rotation",
+              "sets_reps": "x6-8",
+              "notes": "Push knees out with elbows. Let eyes follow your hand as you reach.",
+              "video": "https://youtube.com/shorts/kNjXVNuv88k?feature=share"
+            },
+            {
+              "order": "B",
+              "movement": "3 Way Groin Opener",
+              "sets_reps": "x40 secs each side",
+              "notes": "Try to get knees over your toes with each rep. Make sure to lift the foot off the floor and control with each rep.",
+              "video": "https://youtube.com/shorts/GbPmNDF8f8g"
+            },
+            {
+              "order": "C",
+              "movement": "Superman Reach + Downward Dog",
+              "sets_reps": "x10",
+              "notes": "Squeeze shoulder blades together, push floor away from you, exhale as you push, and push head through your shoulders as much as you can.",
+              "video": "https://youtube.com/shorts/SjbZWVcKpqM"
+            },
+            {
+              "order": "D",
+              "movement": "Figure 4 Drop",
+              "sets_reps": "x8 each side",
+              "notes": "Flow Tip: After you rotate and drop your elbow to the floor, your hand moves right back to where it was behind you.",
+              "video": "https://youtube.com/shorts/IXj3KRVGgJQ"
+            },
+            {
+              "order": "E",
+              "movement": "Alternating Crab Reach",
+              "sets_reps": "x10",
+              "notes": "If alternating is too difficult, do one side/arm at a time! Reach as far back as you can, push hips to the ceiling. Make sure heels are in line with your knees.",
+              "video": "https://youtube.com/shorts/N5QmQBVDv-4"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "focus": "Knees + Ankles",
+          "equipment": "wall, plate for deficit, long resistance band",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kCnA6gKrZmJXNo6lXCHEFhA",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Wall Tibialis Raises",
+              "sets_reps": "x15",
+              "notes": "Back against a wall. Place your feet flat on the floor, hip-width apart, slightly in front of you. Keep your knees straight. Pull toes to nose!",
+              "video": "https://youtube.com/shorts/iw4GzZnJyQY?feature=share"
+            },
+            {
+              "order": "B",
+              "movement": "Kneeling Ankle Wall Anchor",
+              "sets_reps": "x10-12 each side",
+              "notes": "Read description of YouTube video for explanation of this drill.",
+              "video": "https://youtube.com/shorts/vTc7ueYMdZ0"
+            },
+            {
+              "order": "C",
+              "movement": "2:1 Deficit Calf Raise",
+              "sets_reps": "x8-10 each side",
+              "notes": "Up with two feet, down with 1 foot. 3-4 SEC ECCENTRIC TEMPO!",
+              "video": "https://youtu.be/WYUm5YIZaXw"
+            },
+            {
+              "order": "D",
+              "movement": "Alternating TKE",
+              "sets_reps": "x20-30",
+              "notes": "Make sure there's no slack in the band. Flex your quad as much as you can with each rep.",
+              "video": "https://youtube.com/shorts/pdqTtVXkW58"
+            },
+            {
+              "order": "E",
+              "movement": "Banded Squat + Iso Squat",
+              "sets_reps": "x10-12 with 20-30 sec hold on last rep",
+              "notes": "Keep upright torso. Get knees parallel with hips. Make sure there is no slack between you and the band.",
+              "video": "https://youtu.be/qf1ydVNXMcE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "weeks": "3-4",
+      "days": [
+        {
+          "day": 1,
+          "focus": "Lower Body",
+          "equipment": "foam roller, bench, mini resistance band",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kALC1TkGQOYSOL11KTonDwY",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Elevated Adductor Rocks",
+              "sets_reps": "x10-12 each side",
+              "notes": "Sink back and extend arms in front of you.",
+              "video": "https://youtube.com/shorts/WFzT8AJ9Hak"
+            },
+            {
+              "order": "B",
+              "movement": "Hamstring Stretch + Lateral Hip Sink",
+              "sets_reps": "x6-8 each side",
+              "notes": "Make sure knees go over toes. Notice how I shift my back leg and hips as I sink laterally into my hips.",
+              "video": "https://youtube.com/shorts/iYc38DOMhJc"
+            },
+            {
+              "order": "C",
+              "movement": "Supine Internal Rotations",
+              "sets_reps": "x12-15",
+              "notes": "Add mini band around soles of your feet to make more challenging.",
+              "video": "https://youtube.com/shorts/qidp2Qk320Y"
+            },
+            {
+              "order": "D",
+              "movement": "90/90 Heel Clicks",
+              "sets_reps": "x10 each side",
+              "notes": "90/90 degree positioning. Keep upright torso. Lift off with each rep. Tap the heels.",
+              "video": "https://youtube.com/shorts/0O7COTW8mtM"
+            },
+            {
+              "order": "E",
+              "movement": "90/90 Switch (no hands)",
+              "sets_reps": "x8-10",
+              "notes": "Keep the core tight with an upright position with your arms extended out in front of you. Keep knees as far away from each other the entire time.",
+              "video": "https://youtu.be/Et4jlYPz4IU"
+            },
+            {
+              "order": "F",
+              "movement": "Elevated Banded Straight Leg Hip Flexion",
+              "sets_reps": "x20",
+              "notes": "Raise hips as high as you can. Squeeze the glutes. Brace your core as you drive your knee to your chest. Pause at the top for 2-3 secs. Keep foot flexed.",
+              "video": "https://youtu.be/MrkEyawoGdA"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "focus": "Upper Body",
+          "equipment": "foam roller, trx band, mini band",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kBBIulw40vlpn450Cp9iFi8",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Foam Roller Thoracic Circles",
+              "sets_reps": "x6-8 each way",
+              "notes": "Form as big of circles as you can. Extend, rotate, crunch.",
+              "video": null
+            },
+            {
+              "order": "B",
+              "movement": "TRX Lat Airplanes",
+              "sets_reps": "x20",
+              "notes": "Notice how I sway side to side to stretch one lat more than the other.",
+              "video": "https://youtube.com/shorts/r31gx2-xKaA"
+            },
+            {
+              "order": "C",
+              "movement": "Bent Knee T Spine Openers",
+              "sets_reps": "x8-10 each side",
+              "notes": "Keep both knees bent and on the floor. Aim to get your entire back on the floor as you rotate.",
+              "video": null
+            },
+            {
+              "order": "D",
+              "movement": "SA Childs Pose Lift Off + Y Reach",
+              "sets_reps": "x8 each side",
+              "notes": "Head stays hovering the floor. Notice how I'm extending into a 'Y' position. Lift arms off the floor as much as you can.",
+              "video": "https://youtube.com/shorts/M4QZDiTKGMc"
+            },
+            {
+              "order": "E",
+              "movement": "Pulsing Banded Overhead Raise",
+              "sets_reps": "x45 seconds",
+              "notes": "Keep constant tension on the band. Small, controlled pulses.",
+              "video": "https://youtube.com/shorts/lw2xjg512C8?feature=share"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "focus": "Lower Body",
+          "equipment": "bench, slider, long resistance band",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kDso3GIc6-_-9vjBnLV9uAk",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Assisted Hamstring Stretch + Alt Internal Knee Tap",
+              "sets_reps": "x8-10",
+              "notes": "Sink back into your hips and extend the spine as you stretch the hamstrings. Control each tap. Try to do without assistance if you can!",
+              "video": "https://youtube.com/shorts/LrsLXxVtANg"
+            },
+            {
+              "order": "B",
+              "movement": "Assisted Alternating Low Cossack Squat",
+              "sets_reps": "x16-20",
+              "notes": "Hands follow with you on the floor. Make sure the extended leg's toes point to the ceiling as you switch.",
+              "video": "https://youtube.com/shorts/mJFE2k-kzdM?feature=share"
+            },
+            {
+              "order": "C",
+              "movement": "Elevated Hip CAR",
+              "sets_reps": "x10 each side",
+              "notes": "Keep hips and shoulders square to the floor the entire time. Leg is bent at 90 degrees. Form as big of a circle you can and control the leg down onto the bench.",
+              "video": "https://youtube.com/shorts/_fCFSf5MU8o"
+            },
+            {
+              "order": "D",
+              "movement": "Bent Knee End Range Hip Internal + External Rotation",
+              "sets_reps": "x10 each side",
+              "notes": "Hold each position at top for 2-3 secs, control down.",
+              "video": "https://youtube.com/shorts/ka8r7yYvYUg"
+            },
+            {
+              "order": "E",
+              "movement": "Banded Glider Lateral Lunge",
+              "sets_reps": "x8-10 each side",
+              "notes": "Chest stays tall as you sink into your hip as you lunge. Keep non-working leg straight the entire time.",
+              "video": "https://youtube.com/shorts/LDij0OiBTH4"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "focus": "Upper Body",
+          "equipment": "trx, light weight",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kAzGvJ8voJwz9KZQKO1eIwo",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "TRX Angels",
+              "sets_reps": "x15",
+              "notes": "Slow and controlled. Play around with positioning to find the right tension.",
+              "video": "https://youtube.com/shorts/0ptYVxkL3Sw?feature=share"
+            },
+            {
+              "order": "B",
+              "movement": "Wall T Rotation + Windmill",
+              "sets_reps": "x6 each side (both reaches = 1 rep)",
+              "notes": "Eyes follow your hand. Keep both hands on the wall as you twist.",
+              "video": "https://youtube.com/shorts/EKxiih9jLS0?feature=share"
+            },
+            {
+              "order": "C",
+              "movement": "Band Resisted WGS",
+              "sets_reps": "x8 each side",
+              "notes": "Keep arms straight as you rotate and reach. Make sure your back knee is off the ground.",
+              "video": "https://youtube.com/shorts/ssBjgW_XAtI"
+            },
+            {
+              "order": "D",
+              "movement": "Prone Alternating Bear Hug",
+              "sets_reps": "x12-16",
+              "notes": "Start with one hand on head (palm down), one hand on lower back (palm up). Notice how palms switch the way they are facing.",
+              "video": "https://youtube.com/shorts/Iah6nbuPaps"
+            },
+            {
+              "order": "E",
+              "movement": "3 Point Shoulder Lift Offs",
+              "sets_reps": "x45 seconds",
+              "notes": "SMALL CONTROLLED REPS. Thumbs to the ceiling. Try to get arms off the floor as high as you can.",
+              "video": "https://youtube.com/shorts/QHWcBhcBEfE"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "focus": "Full Body",
+          "equipment": "wall, light weight",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kB6LVelfBRrLhNTrQoyYBVp",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Couch Stretch + Banded OH Lateral Flexions",
+              "sets_reps": "x8 each side",
+              "notes": "Keep the core and glutes tight. Try your best to get into a straight, upright position where your back heel meets your glute. Tuck the pelvis and slightly sink into your hip to initiate a strong hip stretch. Modify: use lower bench/box.",
+              "video": "https://youtube.com/shorts/VVMWTWBv7gg"
+            },
+            {
+              "order": "B",
+              "movement": "Assisted Cossack + Reach",
+              "sets_reps": "x10",
+              "notes": "Hands follow with you on the floor or stability/support.",
+              "video": "https://youtu.be/ahwcfaiM9nM"
+            },
+            {
+              "order": "C",
+              "movement": "90/90 Switch + Forward Lean",
+              "sets_reps": "x6-8 each side",
+              "notes": "Keep knees as far away from each other as possible. Keep back flat as you switch and lean forward.",
+              "video": "https://youtube.com/shorts/Q2wcGsjLHIY"
+            },
+            {
+              "order": "D",
+              "movement": "Scorpion + Toe Touch",
+              "sets_reps": "x10-12 total",
+              "notes": "Take the toe touch out if needed and just go into the get up position if needed. It may take a few reps to get used to.",
+              "video": "https://youtube.com/shorts/VReQ5j31Az8"
+            },
+            {
+              "order": "E",
+              "movement": "Kneeling Open Half KB Windmill",
+              "sets_reps": "x8-10 each side",
+              "notes": "Go down onto your hand first, then progress to your elbow. Keep eyes on weight the entire time. Let elbow or arm glide against your leg.",
+              "video": "https://youtube.com/shorts/XOhzNwkgpO8"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "focus": "Knees + Ankles",
+          "equipment": "long resistance band, light weight, plate for deficit",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kCFRHdxSIXDVcxBp30r7W0Y",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Deep Squat Ankle Rocks",
+              "sets_reps": "x45 secs",
+              "notes": "Squat down as deep as you can. Rock side to side rolling onto the toes, allowing your heels to rock up and down as you sink and let your knees come over the toes. Feel free to place hands on the floor for stability.",
+              "video": "https://youtube.com/shorts/j-5J10_Y5NM"
+            },
+            {
+              "order": "B",
+              "movement": "Banded Ankle Mobilization",
+              "sets_reps": "x10 each side",
+              "notes": "Make sure there's no slack in the band. Get knees over toes as much as you can without your heel coming off the floor.",
+              "video": "https://youtu.be/ns5BIlPglrI"
+            },
+            {
+              "order": "C",
+              "movement": "Banded Ankle Dorsiflexion",
+              "sets_reps": "x15 each side",
+              "notes": "Slow and controlled, pause at the top. Keep foot flexed and pull toes to nose, and then control as the band pulls and points your toes. Make sure there is no slack in band.",
+              "video": "https://youtu.be/SkveLSG-KkM"
+            },
+            {
+              "order": "D",
+              "movement": "Deficit SL Calf Raise",
+              "sets_reps": "x10-12 each side",
+              "notes": "2 sec pause at the top, 3 second eccentric tempo. Hold onto something for assistance. Make sure you get a big stretch in the calf. Hold weight if you can.",
+              "video": "https://youtube.com/shorts/JF9JPXCLehk"
+            },
+            {
+              "order": "E",
+              "movement": "Elevated SL Heel Touch Down",
+              "sets_reps": "x10 each side",
+              "notes": "Feel free to hold a weight / increase height to progress. Slow and controlled. As soon as your heel hits the ground, stand right back up.",
+              "video": "https://youtube.com/shorts/lqubjQiXsUU"
+            },
+            {
+              "order": "F",
+              "movement": "Tip Toe Squats",
+              "sets_reps": "x10-15",
+              "notes": "Keep chest tall, heels as high off the ground as possible. Get as deep as you can.",
+              "video": "https://youtube.com/shorts/XEKYXazGAp4?feature=share"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "weeks": "5-6",
+      "days": [
+        {
+          "day": 1,
+          "focus": "Lower Body",
+          "equipment": "wall, long resistance band, bench",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kDgp-JevUj92S6XcMvENuV6",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Lying Croissants",
+              "sets_reps": "x8-10 each side",
+              "notes": "Form BIG 'Cs'. Keep core tight, low back glued to the floor. Control, don't just swing.",
+              "video": "https://youtube.com/shorts/Osy475NpM58"
+            },
+            {
+              "order": "B",
+              "movement": "Lizard Lunge + Side Lunge",
+              "sets_reps": "x8 each side",
+              "notes": "Make sure the toe points to the ceiling as you drop into the side lunge. Use the floor for assistance. If you need to, drop knee to the floor as you sink forward.",
+              "video": "https://youtu.be/PuQN8Aunvew"
+            },
+            {
+              "order": "C",
+              "movement": "Resisted 90/90 Internal Rotation",
+              "sets_reps": "x10-12 each side",
+              "notes": "Make sure there is no slack in the band. Let the band pull your knee back as far as your hips will get you. Keep both knees at 90/90. Bring knee all the way back down to the floor.",
+              "video": "https://youtu.be/XNhyQUUzd3g"
+            },
+            {
+              "order": "D",
+              "movement": "Wall Hip Circles",
+              "sets_reps": "x8 each side",
+              "notes": "Make sure your knees are directly under your hips and your hips are directly in line with your torso — forming a vertical line if viewed from the side. Bring leg forward and back in as big of a circle you can. The higher and bigger the circle — the better. Keep knee bent.",
+              "video": "https://www.youtube.com/shorts/kqCTe85bVXc"
+            },
+            {
+              "order": "E",
+              "movement": "SL Glute Bridge March",
+              "sets_reps": "x10 each side",
+              "notes": "Make sure there is no slack in the band, your heel is in line with your knee, squeeze the glutes and raise the hips to the ceiling. Drive knee to chest, pause, and slowly extend the knee back to starting position.",
+              "video": "https://youtube.com/shorts/jC7TPRpTTIk"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "focus": "Upper Body",
+          "equipment": "bench, light weight, wall, long resistance band",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kC7ar4F3I5yawk76VS6_Gyn",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Jefferson Curl",
+              "sets_reps": "x8-10",
+              "notes": "Slow reps. Controlled throughout. Imagine you are flexing each vertebrae one at a time.",
+              "video": "https://youtu.be/Lf145e4eyq4"
+            },
+            {
+              "order": "B",
+              "movement": "Wall Quadruped Shoulder CARs",
+              "sets_reps": "x6-8 each side",
+              "notes": "Notice how I brace my core before I start. Form a fist and let your hand glide against the wall as you rotate the wrist.",
+              "video": "https://youtube.com/shorts/3g2ktuMEIzM"
+            },
+            {
+              "order": "C",
+              "movement": "Elevated T Spine Rotation",
+              "sets_reps": "x10-12",
+              "notes": "Bring elbow to elbow. Try to sink into your hips as you rotate eccentrically.",
+              "video": "https://youtube.com/shorts/msLrEJTB8D8?feature=share"
+            },
+            {
+              "order": "D",
+              "movement": "Adductor Kneeling Banded Thread the Needle",
+              "sets_reps": "x8-10 each side",
+              "notes": "Rotate the torso and aim for the hips as you row. You want to feel an extra stretch in your lats as the band assists as you reach through. Try to sit back into the kneeling position to open the hips, too.",
+              "video": "https://youtube.com/shorts/fiz_HnYbc8c"
+            },
+            {
+              "order": "E",
+              "movement": "Wall Ext / Int Elbow Rotation",
+              "sets_reps": "x10-12",
+              "notes": "Keep pelvis tucked to the wall, elbows bent at 90 degrees, and elbows glued to the wall.",
+              "video": "https://youtu.be/FvGVWsxv8wM"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "focus": "Lower Body",
+          "equipment": "bench, foam roller, mini band, trx",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kDuQBrEtl1xIzcBM9LB2-NH",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "90/90 Bench Leans",
+              "sets_reps": "x10 each side",
+              "notes": "If a flat bench is too difficult, try using a bench at an incline and do the same move.",
+              "video": "https://youtube.com/shorts/m5D4BBHODYs?feature=share"
+            },
+            {
+              "order": "B",
+              "movement": "Seated Banded Foam Roller Abduction",
+              "sets_reps": "x12 each",
+              "notes": "Slight pause at the top of the abduction. Control as you come back to starting position.",
+              "video": "https://youtube.com/shorts/GJ072jGraRY?feature=share"
+            },
+            {
+              "order": "C",
+              "movement": "90/90 Lift Off + Extension",
+              "sets_reps": "x8-10 each",
+              "notes": "Slight pause at the top of each extension. Try your best to get your leg as far off the floor as you can. Control on the way down.",
+              "video": "https://youtube.com/shorts/phFXIfadBQA?feature=share"
+            },
+            {
+              "order": "D",
+              "movement": "SL Combat Stance",
+              "sets_reps": "x8 each",
+              "notes": "Notice how my arms move with each rep. Sink into your hip as deep as you can. CONTROL yourself back down. DO NOT let hips slam to the ground.",
+              "video": "https://youtube.com/shorts/IwrCPi5CTc4?feature=share"
+            },
+            {
+              "order": "E",
+              "movement": "TRX Sprinter Lunge",
+              "sets_reps": "x10 each side",
+              "notes": "You can also mimic this by using a slider instead. Sink into your hip, slight lean forward so nose is over toes. Head stays in line with your body, back stays flat.",
+              "video": "https://youtube.com/shorts/6RvVpyUYpYg"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "focus": "Upper Body",
+          "equipment": "foam roller, light weight, bench, long resistance band",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kApgwxY-8zAEDwrMjgJxXpp",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Loaded Extension Over Roller on Bench",
+              "sets_reps": "x8-10",
+              "notes": "Keep the pelvis on the bench / floor as you extend your upper back over the foam roller and reach overhead with your arms. Aim to get your hands to the floor if you can.",
+              "video": "https://youtube.com/shorts/qAVXylEOv5g?feature=share"
+            },
+            {
+              "order": "B",
+              "movement": "Foam Roller Knee Drops",
+              "sets_reps": "x12-16",
+              "notes": "Keep both feet and shoulders on the floor. Play around with positioning of the foam roller on your back.",
+              "video": "https://youtube.com/shorts/Bh0Iwid0AD4"
+            },
+            {
+              "order": "C",
+              "movement": "Active Prayer Stretch",
+              "sets_reps": "x12",
+              "notes": "Sink into your shoulders and move hands behind the head.",
+              "video": "https://youtu.be/HjxxCCbUvlc"
+            },
+            {
+              "order": "D",
+              "movement": "Side Lying Rotational Row",
+              "sets_reps": "x10 each side",
+              "notes": "Keep knees at 90 degree angle. Aim for your hips and rotate the entire torso as you row. Try to get entire back on the floor as you pull.",
+              "video": null
+            },
+            {
+              "order": "E",
+              "movement": "Weighted Prone Y Presses",
+              "sets_reps": "x10-12 or 45 seconds",
+              "notes": "Grab a very light weight for these. Squeeze the glutes and raise the arms as high as you can. Extend the arms and squeeze the shoulder blades together eccentrically.",
+              "video": "https://youtube.com/shorts/zyaQjCIBFNA"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "focus": "Full Body",
+          "equipment": "long resistance band, light weight",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kAlO-SQ7AWqcq2FyHAjSzPs",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Squat + Internal Knee Taps",
+              "sets_reps": "x12",
+              "notes": "Keep chest tall. Squat as deep as you can. Try NOT to rotate your torso as you internally tap the knee.",
+              "video": "https://youtube.com/shorts/TYECoWWnk5w"
+            },
+            {
+              "order": "B",
+              "movement": "Low Cossack Squat + WGS",
+              "sets_reps": "x6-8 each side",
+              "notes": "Use the floor for assistance if needed.",
+              "video": "https://youtube.com/shorts/wrA8958CAc0"
+            },
+            {
+              "order": "C",
+              "movement": "90/90 Lift Off to Combat Stance",
+              "sets_reps": "x6 each side",
+              "notes": "Start in 90/90 position. Lift off with each rep. Keep leg off the ground until you control the heel to the floor. Notice how my arms flow with the movement. Sink into the hips, then CONTROL back to starting position.",
+              "video": "https://youtube.com/shorts/pObRF91BUxg"
+            },
+            {
+              "order": "D",
+              "movement": "90/90 Switch + Tripod Reach",
+              "sets_reps": "x6 each side",
+              "notes": "Keep knees as far apart as possible. Keep upright torso. Squeeze the glutes as you reach behind you.",
+              "video": "https://youtu.be/hye7KUIItQI"
+            },
+            {
+              "order": "E",
+              "movement": "Adductor KB Windmill",
+              "sets_reps": "x8-10 each side",
+              "notes": "Go down onto your hand, then progress to your elbow if needed. Keep eyes on the weight the entire time. Let elbow or arm glide against your leg. Sink into your hips on the way down.",
+              "video": "https://youtube.com/shorts/ESy2aAo1Jno"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "focus": "Knees + Ankles",
+          "equipment": "mini band, elevation, mini + long band",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kBRh6ZORN-9PxvL2j0idsKk",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Seated Ankle Inversion",
+              "sets_reps": "x12-15 each side",
+              "notes": "Pause at the top, slowly control on the way down.",
+              "video": "https://youtube.com/shorts/3OI7Y_xG-DE?feature=share"
+            },
+            {
+              "order": "B",
+              "movement": "Deep Squat Calf Raises",
+              "sets_reps": "x10-12",
+              "notes": "Do not let hips raise as you raise. Focus on slow and controlled reps. Pause at the top. Stay as low as you can throughout.",
+              "video": "https://youtube.com/shorts/uiAmZRa68rY?feature=share"
+            },
+            {
+              "order": "C",
+              "movement": "Assisted Tip Toe Deep Squat Knee Drops",
+              "sets_reps": "x10-12",
+              "notes": "Stay on the toes. CONTROL your knees to the floor by keeping chest to the ceiling and core tight. Stay as low as you can.",
+              "video": "https://youtube.com/shorts/IDWr30yO9QE"
+            },
+            {
+              "order": "D",
+              "movement": "Y Touch Down",
+              "sets_reps": "x3-5 each side (all three taps = 1 rep)",
+              "notes": "Control each rep on the way down, tap the heel, and stand right back up. Balance and reach out as far as you can with each tap. Front, lateral, reverse.",
+              "video": "https://youtube.com/shorts/uMN-5eUyEAw"
+            },
+            {
+              "order": "E",
+              "movement": "Knee Banded Step Up",
+              "sets_reps": "x3-5 each side (all three taps = 1 rep)",
+              "notes": "Make sure there is no slack between you and the band. 3-4 second eccentric tempo. DO NOT let the heel touch the ground. Tap the toe and stand straight back up.",
+              "video": "https://youtube.com/shorts/VM-mVgz5-aU"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "weeks": "7-8",
+      "days": [
+        {
+          "day": 1,
+          "focus": "Lower Body",
+          "equipment": "bench, slider, kb, elevation",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kBDM8oHtZZxxz3lMN_SG5TV",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Hip Lift + Spider Stretch",
+              "sets_reps": "x10 each side",
+              "notes": "Push knee out laterally at the bottom for even more of a stretch.",
+              "video": "https://youtube.com/shorts/wB2HEJbfyRk"
+            },
+            {
+              "order": "B",
+              "movement": "Seated Glider Circles",
+              "sets_reps": "x10 each side",
+              "notes": "Use a wall to lean against. Keep upright torso, make as big of circles as you can. Make sure to switch which way you are circling.",
+              "video": "https://youtube.com/shorts/9_3OMZQpjXA"
+            },
+            {
+              "order": "C",
+              "movement": "Quadruped End Range Lift Off + Knee Extension",
+              "sets_reps": "x6-8 each side",
+              "notes": "Keep shoulders and hips square to the floor throughout. Bend the knee on the bench, lift off as high as you can, and extend the leg. Control back down to bench.",
+              "video": "https://youtube.com/shorts/MeR1fxpA9H8?feature=share"
+            },
+            {
+              "order": "D",
+              "movement": "Prone Hip CARs",
+              "sets_reps": "x6-8 each side",
+              "notes": "Bend the knee, drive up, bring knee out to the side as high as you can, and control slowly down to the floor. Lift off and repeat in the opposite direction — forming as big of a circle you can.",
+              "video": "https://youtube.com/shorts/ykFh8tgNaXo?feature=share"
+            },
+            {
+              "order": "E",
+              "movement": "Elevated Pause Standing KB Hip Flexion",
+              "sets_reps": "x10 each side",
+              "notes": "2-3 sec pause at the top. Drive knee as high as you can. You must keep your foot flexed to hold the weight. No hunching or rounding of the back as you drive.",
+              "video": "https://youtube.com/shorts/G3ZK4Z3iIBM"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "focus": "Upper Body",
+          "equipment": "long band, bench, light weight, trx",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kAC6zg6d0hyExznzJXnTurG",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Banded / Cable Pancake",
+              "sets_reps": "x8-10",
+              "notes": "Make sure to tuck the chin and round the back, then try your best to flatten out as you extend.",
+              "video": "https://youtube.com/shorts/ZXuk-U15Gmg"
+            },
+            {
+              "order": "B",
+              "movement": "Forward Lean Loaded Thoracic Rotation",
+              "sets_reps": "x8 each side",
+              "notes": "Rotate and reach just until it's slightly uncomfortable. Aim to get further with each rep. Do not rush it.",
+              "video": "https://youtube.com/shorts/p4QqoVoxaDk"
+            },
+            {
+              "order": "C",
+              "movement": "Spinal Wave + Book Opener",
+              "sets_reps": "x6-8 each side",
+              "notes": "Let hand glide against the floor as you form a rainbow. Try your best to keep the bent knee on the floor.",
+              "video": "https://youtube.com/shorts/-3UXQ3QCg78"
+            },
+            {
+              "order": "D",
+              "movement": "Preacher Stretch Lift Offs",
+              "sets_reps": "x6-8 each side",
+              "notes": "Keep arms straight the entire time. Raise into a 'Y' position, pause, and slowly control down.",
+              "video": "https://youtube.com/shorts/fpjlYJnbkGM"
+            },
+            {
+              "order": "E",
+              "movement": "Kneeling TRX Fall Outs",
+              "sets_reps": "x8-10",
+              "notes": "Keep hips tucked under your torso — glutes engaged, core tight. Keep arms straight the entire time, sink into your shoulders until you are at least parallel with your head.",
+              "video": "https://youtu.be/wD94tMSjzJk"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "focus": "Lower Body",
+          "equipment": "slider, bench, mini band, light weight",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kC8NNCnhvnBDco27fmXMF6y",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Elevated 90/90 Hip Drops",
+              "sets_reps": "x8 each side",
+              "notes": "Feel free to do this with an incline bench instead of a flat bench. Keep chest upright, back flat. Tap the knee on the floor.",
+              "video": "https://youtube.com/shorts/3R6gd8-tt3o?feature=share"
+            },
+            {
+              "order": "B",
+              "movement": "Standing Elevated Extended Hinge",
+              "sets_reps": "x10 each side",
+              "notes": "Reach as far as you can, aiming to form a straight line with your head, arms, and hips. Sink into your hip and keep a slight bend in the knees. Pause at the bottom and really focus on extending as much as you can.",
+              "video": "https://youtu.be/F7IVfg7Bvyc"
+            },
+            {
+              "order": "C",
+              "movement": "Tall Split Kneeling Adductor Slides",
+              "sets_reps": "x8-10 each side",
+              "notes": "Sink as far as you can laterally as you keep the leg straight. Keep upright torso. Can use a towel and hard wood floor if you do not have a slider.",
+              "video": "https://youtube.com/shorts/g3U-Zd4vtqI"
+            },
+            {
+              "order": "D",
+              "movement": "Straight Leg Banded Abduction",
+              "sets_reps": "x10-12 each side",
+              "notes": "Pause at the top of each rep, slow and controlled on the way back eccentrically.",
+              "video": "https://youtube.com/shorts/Hni6OGDWyQE?feature=share"
+            },
+            {
+              "order": "E",
+              "movement": "Weighted 90/90 Shin Box Get Up",
+              "sets_reps": "x45 sec",
+              "notes": "Hold weight to your chest. Slow and controlled. Stay as low as you can, remember to point toes to the ceiling as you switch.",
+              "video": "https://youtube.com/shorts/21Xdv0_AWHY"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "focus": "Upper Body",
+          "equipment": "medicine ball, wall",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kCRe-twVGWBhQDGMK15SpGk",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "MB Thoracic CARs",
+              "sets_reps": "x6-8 each way",
+              "notes": "Think about rounding the spine, tucking the chin, go down, twist, rotate, twist, etc.",
+              "video": "https://youtube.com/shorts/SlJrFGRXxtU"
+            },
+            {
+              "order": "B",
+              "movement": "Hand on Back Quadruped Elbow Spine Rotation",
+              "sets_reps": "x8-10 each side",
+              "notes": "Opening up as much as you can. Let eyes follow as you rotate. Reach elbow to the ceiling.",
+              "video": "https://youtube.com/shorts/o2UaONkMMHQ"
+            },
+            {
+              "order": "C",
+              "movement": "Prone SA Shoulder CAR",
+              "sets_reps": "x6 each side",
+              "notes": "Start with thumbs facing the ceiling, then rotate the wrist as you circulate. Keep working arm STRAIGHT and hips on the floor.",
+              "video": "https://youtube.com/shorts/uK5mGquRx0M?feature=share"
+            },
+            {
+              "order": "D",
+              "movement": "Wall T Twists",
+              "sets_reps": "x6 each side",
+              "notes": "Focus on keeping your elbows on the wall to get the most out of this movement. Twisting all the way forward and all the way back.",
+              "video": "https://youtube.com/shorts/1pS8SrtEHTQ?feature=share"
+            },
+            {
+              "order": "E",
+              "movement": "Wall Presses",
+              "sets_reps": "x30 seconds",
+              "notes": "If standing is too difficult at first, lay on the ground with your knees bent and feet flat. Maintain an upright torso and keep elbows glued to the wall as you extend overhead.",
+              "video": "https://youtu.be/yjXle80mgVs"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "focus": "Full Body",
+          "equipment": "light weight",
+          "playlist": "https://www.youtube.com/playlist?list=PLm0Lh8W_Q9kDGDdPCbd5UymV38ItEbD-o",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Pigeon + WGS",
+              "sets_reps": "x6-8 each side",
+              "notes": "Using some hip mobility and power here. Aim to get your foot beside the hand. Open up and rotate towards the leg that's on the ground.",
+              "video": "https://youtu.be/KyXwesjZ26A"
+            },
+            {
+              "order": "B",
+              "movement": "Scorpion + Tripod Reach",
+              "sets_reps": "x10 total",
+              "notes": "Using your hands to assist you into the tripod position. Raise hips as high as you can as you reach behind you as far as you can.",
+              "video": "https://youtube.com/shorts/qfXzeKQMbNo"
+            },
+            {
+              "order": "C",
+              "movement": "Cossack Squat + Hamstring Stretch",
+              "sets_reps": "x12 total",
+              "notes": "Use floor for assistance. Stay slow and controlled.",
+              "video": "https://youtube.com/shorts/UZHjCOBMLa4"
+            },
+            {
+              "order": "D",
+              "movement": "Alt Combat Stance",
+              "sets_reps": "x6-8 each side",
+              "notes": "Start with one leg extended in front of you and the other tucked under the opposite leg. Use your hips to get up and sink into your hip / ankle. Notice how I position my arms throughout the movement.",
+              "video": "https://youtube.com/shorts/zhPiH1quAQA?feature=share"
+            },
+            {
+              "order": "E",
+              "movement": "Adductor Kneeling Thrust to Windmill",
+              "sets_reps": "x6-8 each side",
+              "notes": "Try to find a flow. As you press, your hips are extending. As you descend, your hips are descending with you at the same time. Eyes stay on the weight the entire time.",
+              "video": "https://youtube.com/shorts/psTVcuDF5Qs"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "focus": "Knees + Ankles",
+          "equipment": "mini band, deficit/elevation",
+          "playlist": "https://www.youtube.com/playlist?list=PLOq6n5J8_7DkNy5XWjE4DUbdAubZ0YcH_",
+          "exercises": [
+            {
+              "order": "A",
+              "movement": "Seated Ankle Banded CARs",
+              "sets_reps": "x20-30 seconds each side",
+              "notes": "Anchor the mini band to your feet flat on the ground and then bend one leg and place on top of opposite leg. SLOW AND CONTROLLED. Make as big of circles as you can. Make sure to switch which way you're circling.",
+              "video": "https://youtube.com/shorts/EVOwfi6rvus?feature=share"
+            },
+            {
+              "order": "B",
+              "movement": "Banded Y Touch Down (ankle banded)",
+              "sets_reps": "x3-5 each side (all three taps = 1 rep)",
+              "notes": "Reach as far as you can with each angle. Tap the heel.",
+              "video": "https://youtu.be/DkFxI6im4vs"
+            },
+            {
+              "order": "C",
+              "movement": "Deficit Split Squat Soleus Raise",
+              "sets_reps": "x10-12 each side",
+              "notes": "Make sure to get a big enough stretch in the calf with the deficit. Let back knee hover the ground. Do not let hips raise as you flex the calf.",
+              "video": null
+            },
+            {
+              "order": "D",
+              "movement": "Kneeling SL Slider Reverse Curl",
+              "sets_reps": "x8-10",
+              "notes": "Read description of YouTube video for in-depth coaching cues.",
+              "video": "https://youtube.com/shorts/1lHxx8W0B1M"
+            },
+            {
+              "order": "E",
+              "movement": "Low Squat Walks",
+              "sets_reps": "x8-10 each side",
+              "notes": "Stay as low as you can. Maintain an upright torso with a tall chest. Make sure your feet travel in a vertical line — try not to let feet go out laterally as you step. Make sure your knees and toes stay pointed forward.",
+              "video": "https://youtube.com/shorts/DCswRAY7DH8"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
