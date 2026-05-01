@@ -7,6 +7,7 @@ import type { MinimaliftExercise } from '@/lib/types'
 interface ExerciseTileProps {
   exercise: MinimaliftExercise
   idx: number
+  storageKey: string
 }
 
 function parseSetCount(sets: string): number {
@@ -20,20 +21,43 @@ function parseRestSeconds(rest: string): number {
   return match ? parseInt(match[1], 10) : 0
 }
 
-export function ExerciseTile({ exercise, idx }: ExerciseTileProps) {
+function readStorage<T>(key: string, fallback: T): T {
+  try {
+    const raw = localStorage.getItem(key)
+    return raw !== null ? (JSON.parse(raw) as T) : fallback
+  } catch {
+    return fallback
+  }
+}
+
+function writeStorage(key: string, value: unknown) {
+  try { localStorage.setItem(key, JSON.stringify(value)) } catch {}
+}
+
+export function ExerciseTile({ exercise, idx, storageKey }: ExerciseTileProps) {
   const setCount = parseSetCount(exercise.sets)
   const restSeconds = parseRestSeconds(exercise.rest)
 
-  const [done, setDone] = useState<boolean[]>(Array(setCount).fill(false))
+  const [done, setDone] = useState<boolean[]>(() =>
+    readStorage<boolean[]>(`goal_done_${storageKey}`, Array(setCount).fill(false))
+  )
   const [showSubs, setShowSubs] = useState(false)
   const [restingFor, setRestingFor] = useState<number | null>(null)
-  const [load, setLoad] = useState('')
+  const [load, setLoad] = useState<string>(() =>
+    readStorage<string>(`goal_load_${storageKey}`, '')
+  )
 
   const toggle = (i: number) => {
     const next = [...done]
     next[i] = !next[i]
     setDone(next)
+    writeStorage(`goal_done_${storageKey}`, next)
     if (next[i]) setRestingFor(i)
+  }
+
+  const handleLoadChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setLoad(e.target.value)
+    writeStorage(`goal_load_${storageKey}`, e.target.value)
   }
 
   const completed = done.filter(Boolean).length
@@ -64,7 +88,7 @@ export function ExerciseTile({ exercise, idx }: ExerciseTileProps) {
             type="text"
             inputMode="decimal"
             value={load}
-            onChange={(e) => setLoad(e.target.value)}
+            onChange={handleLoadChange}
             placeholder="—"
             className="goal-stat-val goal-load-input"
           />

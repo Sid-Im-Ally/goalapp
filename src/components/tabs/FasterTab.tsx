@@ -91,7 +91,7 @@ const CATEGORY_META: Record<string, { color: string; icon: React.ReactNode }> = 
 }
 
 export default function FasterTab() {
-  const [openCategory, setOpenCategory] = useState<string | null>(library.categories[0]?.id ?? null)
+  const [openCategory, setOpenCategory] = useState<string | null>(null)
 
   return (
     <div className="goal-tabview goal-theme-faster">

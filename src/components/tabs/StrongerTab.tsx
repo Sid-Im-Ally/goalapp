@@ -55,7 +55,12 @@ export default function StrongerTab() {
         <div key={section.name} className="goal-tile-stack">
           <div className="goal-section-header">{section.name}</div>
           {section.exercises.map((ex, i) => (
-            <ExerciseTile key={`${section.name}-${ex.name}-${i}`} exercise={ex} idx={i} />
+            <ExerciseTile
+              key={`${section.name}-${ex.name}-${i}`}
+              exercise={ex}
+              idx={i}
+              storageKey={`${workoutId}/${section.name}/${i}`}
+            />
           ))}
         </div>
       ))}
