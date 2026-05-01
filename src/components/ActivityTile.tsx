@@ -57,8 +57,8 @@ function SessionHistory({
         const filledMetrics = metrics.filter(
           (m) => session.values[m.key] && session.values[m.key].trim() !== ''
         )
-        // Show up to 3 key metrics inline in the collapsed row
-        const preview = filledMetrics.slice(0, 3)
+        // Show up to 3 non-text metrics inline in the collapsed row
+        const preview = filledMetrics.filter((m) => m.type !== 'text').slice(0, 3)
 
         return (
           <div key={session.id} className="goal-session-row">
