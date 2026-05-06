@@ -111,3 +111,75 @@ export interface MobilitySession {
   exercises: MobilityExercise[]
   sessionIndex: number
 }
+
+// ─── Nutrition ────────────────────────────────────────────────────────
+export type MealType = 'breakfast' | 'lunch' | 'snack' | 'dinner'
+export type MealSection = MealType | 'custom'
+
+export interface FoodItem {
+  id: string
+  name: string
+  servingLabel: string
+  calories: number
+  protein: number
+  carbs: number
+  fat: number
+}
+
+export interface TemplateIngredient {
+  foodId: string
+  quantity: number
+}
+
+export interface MealTemplate {
+  id: string
+  name: string
+  mealType: MealType
+  items: TemplateIngredient[]
+  override?: { calories: number; protein: number; carbs: number; fat: number }
+}
+
+export interface CustomFood {
+  id: string
+  name: string
+  servingLabel: string
+  calories: number
+  protein: number
+  carbs: number
+  fat: number
+}
+
+export interface MealEntryItem {
+  id: string
+  section: MealSection
+  kind: 'template' | 'custom'
+  templateId?: string
+  customFood?: CustomFood
+  quantity: number
+}
+
+export interface DailyNutritionLog {
+  date: string
+  linkedWorkoutId?: string
+  entries: MealEntryItem[]
+  notes: string
+}
+
+export interface NutritionCatalog {
+  foods: FoodItem[]
+  templates: MealTemplate[]
+}
+
+export interface MacroTotals {
+  calories: number
+  protein: number
+  carbs: number
+  fat: number
+}
+
+export interface NutritionBadges {
+  proteinHit: boolean
+  kcalUnder: boolean
+  highCarb: boolean
+  squashFuel: boolean
+}

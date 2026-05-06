@@ -1,0 +1,250 @@
+{
+  "foods": [
+    { "id": "whey-iso100-scoop", "name": "Dymatize ISO100 Whey", "servingLabel": "1 scoop", "calories": 120, "protein": 25, "carbs": 2, "fat": 1 },
+    { "id": "oats-rolled-10g", "name": "Rolled Oats", "servingLabel": "10g dry", "calories": 39, "protein": 1.3, "carbs": 6.6, "fat": 0.7 },
+    { "id": "chia-10g", "name": "Chia Seeds", "servingLabel": "10g", "calories": 50, "protein": 2, "carbs": 4, "fat": 3.5 },
+    { "id": "almond-milk-100ml", "name": "Unsweetened Almond Milk", "servingLabel": "100ml", "calories": 15, "protein": 0.5, "carbs": 0.5, "fat": 1 },
+    { "id": "milk-1pct-100ml", "name": "Reduced Fat 1% Milk", "servingLabel": "100ml", "calories": 42, "protein": 3.4, "carbs": 5, "fat": 1 },
+    { "id": "banana-medium", "name": "Banana", "servingLabel": "1 medium", "calories": 105, "protein": 1, "carbs": 27, "fat": 0 },
+    { "id": "date-small", "name": "Date", "servingLabel": "1 small", "calories": 65, "protein": 0, "carbs": 18, "fat": 0 },
+    { "id": "almonds-5", "name": "Almonds", "servingLabel": "5 pieces", "calories": 35, "protein": 1, "carbs": 1, "fat": 3 },
+    { "id": "peanut-butter-5g", "name": "Peanut Butter", "servingLabel": "5g", "calories": 30, "protein": 1, "carbs": 1, "fat": 2.5 },
+    { "id": "blueberries-30g", "name": "Blueberries", "servingLabel": "30g handful", "calories": 15, "protein": 0, "carbs": 4, "fat": 0 },
+    { "id": "creatine-5g", "name": "Creatine", "servingLabel": "5g", "calories": 0, "protein": 0, "carbs": 0, "fat": 0 },
+    { "id": "egg-boiled-large", "name": "Boiled Egg", "servingLabel": "1 large", "calories": 70, "protein": 6, "carbs": 0.5, "fat": 5 },
+    { "id": "egg-white-large", "name": "Egg White", "servingLabel": "1 large", "calories": 17, "protein": 3.6, "carbs": 0, "fat": 0 },
+    { "id": "daves-bread-slice", "name": "Dave's Bread", "servingLabel": "1 small slice", "calories": 70, "protein": 3, "carbs": 12, "fat": 1 },
+    { "id": "chapati-medium", "name": "Whole Wheat Chapati", "servingLabel": "1 medium", "calories": 110, "protein": 3, "carbs": 18, "fat": 2 },
+    { "id": "rice-white-100g", "name": "Cooked White Rice", "servingLabel": "100g", "calories": 130, "protein": 2.7, "carbs": 28, "fat": 0.3 },
+    { "id": "chicken-breast-100g", "name": "Grilled Chicken Breast", "servingLabel": "100g", "calories": 165, "protein": 31, "carbs": 0, "fat": 3.5 },
+    { "id": "chicken-pkg-85g", "name": "Packaged Grilled Chicken", "servingLabel": "85g label", "calories": 140, "protein": 24, "carbs": 2, "fat": 4.5 },
+    { "id": "salmon-100g", "name": "Baked Salmon", "servingLabel": "100g", "calories": 206, "protein": 22, "carbs": 0, "fat": 13 },
+    { "id": "cottage-cheese-113g", "name": "Low-Fat Cottage Cheese", "servingLabel": "113g label", "calories": 90, "protein": 13, "carbs": 5, "fat": 2 },
+    { "id": "cottage-cheese-90g", "name": "Low-Fat Cottage Cheese", "servingLabel": "90g", "calories": 72, "protein": 10.4, "carbs": 4, "fat": 1.6 },
+    { "id": "cottage-cheese-2tbsp", "name": "Low-Fat Cottage Cheese", "servingLabel": "2 tbsp (~30g)", "calories": 24, "protein": 3.5, "carbs": 1.3, "fat": 0.5 },
+    { "id": "paneer-low-fat-45g", "name": "Low-Fat Paneer", "servingLabel": "45g", "calories": 60, "protein": 8, "carbs": 2, "fat": 2 },
+    { "id": "greek-yogurt-150g", "name": "Greek Yogurt Box", "servingLabel": "150g", "calories": 90, "protein": 16, "carbs": 6, "fat": 0 },
+    { "id": "cucumber-100g", "name": "Cucumber", "servingLabel": "100g", "calories": 15, "protein": 0.7, "carbs": 3.5, "fat": 0 },
+    { "id": "tomato-50g", "name": "Tomato", "servingLabel": "50g", "calories": 9, "protein": 0.5, "carbs": 2, "fat": 0 },
+    { "id": "broccoli-spinach-edamame-100g", "name": "Broccoli / Spinach / Edamame Mix", "servingLabel": "100g", "calories": 90, "protein": 6, "carbs": 12, "fat": 2 },
+    { "id": "mixed-veggies-150g", "name": "Mixed Veggies", "servingLabel": "150g", "calories": 110, "protein": 5, "carbs": 18, "fat": 2 },
+    { "id": "scallion-pancake-tj", "name": "Scallion Pancake (Trader Joe's)", "servingLabel": "1 piece", "calories": 330, "protein": 6, "carbs": 30, "fat": 16 },
+    { "id": "edamame-snack-pkg", "name": "Roasted Edamame Snack", "servingLabel": "1 pkg", "calories": 330, "protein": 30, "carbs": 20, "fat": 13 },
+    { "id": "energy-gel", "name": "Energy Gel", "servingLabel": "1 packet", "calories": 100, "protein": 0, "carbs": 25, "fat": 0 },
+    { "id": "flax-tortilla-chips", "name": "Flaxseed Tortilla Chips", "servingLabel": "1 small serving", "calories": 140, "protein": 3, "carbs": 16, "fat": 7 }
+  ],
+  "templates": [
+    {
+      "id": "breakfast-light-whey-oats",
+      "name": "Light Whey Oats",
+      "mealType": "breakfast",
+      "items": [
+        { "foodId": "oats-rolled-10g", "quantity": 2 },
+        { "foodId": "almond-milk-100ml", "quantity": 2 },
+        { "foodId": "whey-iso100-scoop", "quantity": 1 },
+        { "foodId": "peanut-butter-5g", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "breakfast-standard-oats-bowl",
+      "name": "Standard Oats Bowl",
+      "mealType": "breakfast",
+      "items": [
+        { "foodId": "oats-rolled-10g", "quantity": 4 },
+        { "foodId": "almond-milk-100ml", "quantity": 2 },
+        { "foodId": "whey-iso100-scoop", "quantity": 1 },
+        { "foodId": "chia-10g", "quantity": 0.7 },
+        { "foodId": "blueberries-30g", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "breakfast-squash-carb-shake",
+      "name": "Squash Carb Shake",
+      "mealType": "breakfast",
+      "items": [
+        { "foodId": "milk-1pct-100ml", "quantity": 3 },
+        { "foodId": "whey-iso100-scoop", "quantity": 1 },
+        { "foodId": "banana-medium", "quantity": 1 },
+        { "foodId": "oats-rolled-10g", "quantity": 1 },
+        { "foodId": "peanut-butter-5g", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "breakfast-egg-breakfast",
+      "name": "Egg Breakfast",
+      "mealType": "breakfast",
+      "items": [
+        { "foodId": "egg-boiled-large", "quantity": 3 },
+        { "foodId": "daves-bread-slice", "quantity": 0.5 },
+        { "foodId": "whey-iso100-scoop", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "breakfast-high-egg-breakfast",
+      "name": "High Egg Breakfast",
+      "mealType": "breakfast",
+      "items": [
+        { "foodId": "egg-boiled-large", "quantity": 4 },
+        { "foodId": "chapati-medium", "quantity": 1 },
+        { "foodId": "cottage-cheese-2tbsp", "quantity": 1 }
+      ],
+      "override": { "calories": 375, "protein": 30, "carbs": 20, "fat": 20 }
+    },
+    {
+      "id": "lunch-standard-tiffin-box",
+      "name": "Standard Tiffin Box",
+      "mealType": "lunch",
+      "items": [
+        { "foodId": "chicken-breast-100g", "quantity": 1.8 },
+        { "foodId": "rice-white-100g", "quantity": 1.8 },
+        { "foodId": "broccoli-spinach-edamame-100g", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "lunch-tiffin-plus-greek-yogurt",
+      "name": "Standard Tiffin + Greek Yogurt",
+      "mealType": "lunch",
+      "items": [
+        { "foodId": "chicken-breast-100g", "quantity": 1.8 },
+        { "foodId": "rice-white-100g", "quantity": 1.8 },
+        { "foodId": "broccoli-spinach-edamame-100g", "quantity": 1 },
+        { "foodId": "greek-yogurt-150g", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "lunch-lean-chicken-rice-bowl",
+      "name": "Lean Chicken Rice Bowl",
+      "mealType": "lunch",
+      "items": [
+        { "foodId": "chicken-breast-100g", "quantity": 1.5 },
+        { "foodId": "rice-white-100g", "quantity": 1.25 },
+        { "foodId": "broccoli-spinach-edamame-100g", "quantity": 1 }
+      ],
+      "override": { "calories": 500, "protein": 50, "carbs": 40, "fat": 10 }
+    },
+    {
+      "id": "lunch-salmon-rice",
+      "name": "Salmon Rice Lunch",
+      "mealType": "lunch",
+      "items": [
+        { "foodId": "salmon-100g", "quantity": 2.25 },
+        { "foodId": "rice-white-100g", "quantity": 3.5 }
+      ]
+    },
+    {
+      "id": "lunch-chicken-cottage-cheese-salad-roti",
+      "name": "Chicken Cottage Cheese Salad + Roti",
+      "mealType": "lunch",
+      "items": [
+        { "foodId": "chicken-pkg-85g", "quantity": 2.353 },
+        { "foodId": "cottage-cheese-113g", "quantity": 1.195 },
+        { "foodId": "cucumber-100g", "quantity": 1.3 },
+        { "foodId": "tomato-50g", "quantity": 1 },
+        { "foodId": "chapati-medium", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "snack-banana",
+      "name": "Banana",
+      "mealType": "snack",
+      "items": [
+        { "foodId": "banana-medium", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "snack-banana-whey",
+      "name": "Banana + Whey",
+      "mealType": "snack",
+      "items": [
+        { "foodId": "banana-medium", "quantity": 1 },
+        { "foodId": "whey-iso100-scoop", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "snack-banana-energy-gel",
+      "name": "Banana + Energy Gel",
+      "mealType": "snack",
+      "items": [
+        { "foodId": "banana-medium", "quantity": 1 },
+        { "foodId": "energy-gel", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "snack-dates",
+      "name": "Dates",
+      "mealType": "snack",
+      "items": [
+        { "foodId": "date-small", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "snack-chocolate-whey-milk",
+      "name": "Chocolate Whey Milk",
+      "mealType": "snack",
+      "items": [
+        { "foodId": "milk-1pct-100ml", "quantity": 3 },
+        { "foodId": "whey-iso100-scoop", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "snack-greek-yogurt",
+      "name": "Greek Yogurt Box",
+      "mealType": "snack",
+      "items": [
+        { "foodId": "greek-yogurt-150g", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "dinner-egg-paneer",
+      "name": "Egg Paneer Dinner",
+      "mealType": "dinner",
+      "items": [
+        { "foodId": "egg-boiled-large", "quantity": 5 },
+        { "foodId": "paneer-low-fat-45g", "quantity": 1 },
+        { "foodId": "daves-bread-slice", "quantity": 0.5 }
+      ]
+    },
+    {
+      "id": "dinner-egg-cottage-cheese-roti",
+      "name": "Egg Cottage Cheese Roti Dinner",
+      "mealType": "dinner",
+      "items": [
+        { "foodId": "egg-boiled-large", "quantity": 5 },
+        { "foodId": "cottage-cheese-90g", "quantity": 1 },
+        { "foodId": "chapati-medium", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "dinner-six-egg",
+      "name": "Six Egg Dinner",
+      "mealType": "dinner",
+      "items": [
+        { "foodId": "egg-boiled-large", "quantity": 6 },
+        { "foodId": "cottage-cheese-2tbsp", "quantity": 1 },
+        { "foodId": "chapati-medium", "quantity": 1 },
+        { "foodId": "cucumber-100g", "quantity": 1 }
+      ],
+      "override": { "calories": 600, "protein": 45, "carbs": 22, "fat": 35 }
+    },
+    {
+      "id": "dinner-light-whey-yogurt",
+      "name": "Light Whey Yogurt Dinner",
+      "mealType": "dinner",
+      "items": [
+        { "foodId": "whey-iso100-scoop", "quantity": 1 },
+        { "foodId": "greek-yogurt-150g", "quantity": 1 },
+        { "foodId": "chia-10g", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "dinner-chicken-veg",
+      "name": "Chicken Veg Dinner",
+      "mealType": "dinner",
+      "items": [
+        { "foodId": "chicken-breast-100g", "quantity": 1.5 },
+        { "foodId": "mixed-veggies-150g", "quantity": 1 },
+        { "foodId": "chapati-medium", "quantity": 0.5 }
+      ]
+    }
+  ]
+}

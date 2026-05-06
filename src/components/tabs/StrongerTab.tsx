@@ -1,5 +1,6 @@
 'use client'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
+import Link from 'next/link'
 import { Header } from '@/components/Header'
 import { ExerciseTile } from '@/components/ExerciseTile'
 import {
@@ -12,6 +13,7 @@ import {
   getWorkoutById,
   getWorkoutIndex,
 } from '@/lib/stronger'
+import { getTodayDateKey } from '@/lib/nutrition'
 
 export default function StrongerTab() {
   const total = getTotalWorkoutCount()
@@ -50,6 +52,13 @@ export default function StrongerTab() {
         <div className="goal-workout-title">{workout.title}</div>
         <div className="goal-workout-dur">{workout.id}</div>
       </div>
+
+      <Link href="/nutrition" className="goal-next-btn" style={{ textDecoration: 'none' }}>
+        <span>TODAY&apos;S NUTRITION →</span>
+        <span style={{ fontFamily: 'var(--mono)', fontSize: 10, opacity: 0.5 }}>
+          {getTodayDateKey()}
+        </span>
+      </Link>
 
       {workout.sections.map((section) => (
         <div key={section.name} className="goal-tile-stack">
